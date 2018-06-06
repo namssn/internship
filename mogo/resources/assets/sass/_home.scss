@@ -1,0 +1,352 @@
+
+#home{
+    .navbar-inner{
+        position: relative;
+        z-index: 1;
+        
+        .navbar-brand{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color:white;
+            font-weight:bold;
+        }
+    
+        .nav-item {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color:white;
+            margin-right: 2rem;
+        }
+        
+        .nav-item::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: rgb(235, 245, 151);
+            transition: width .3s;
+            color: rgb(235, 245, 151);
+        }
+        
+        .nav-item:hover::after {
+            width: 100%;
+        }
+    }
+    
+    .banner{
+    
+        .carousel-indicators .active {
+            background-color: transparent;
+        }
+    
+        .card-title{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 5rem;
+        color:white;
+        }
+    
+        .card-text{
+            font: {
+                family: 'Montserrat', sans-serif;
+                weight:bold;
+                size: 9rem;
+            }
+            color:white;  
+        }
+    
+        .banner-text{
+            text-align: center;
+            margin-top: 8rem;
+        }
+        margin-top: -50px;
+        
+        .btn-banner{
+            margin-top: 5rem;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .line-banner{
+            align-items: center;
+            width: 4rem;
+            height: 0.2rem;
+            background-color: white;
+        }
+    
+        .tab{
+            width: 100%;
+    
+            .number{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5rem;
+                font-weight:bold;
+                color: white;
+            }
+    
+            .text{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1rem;
+                color: white;
+            }
+    
+            .li-banner{
+                width: auto;
+            } 
+        }  
+    }
+    
+    .group-title{
+        text-align: center;
+    
+        .first-text{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 2rem;
+            color: rgb(55, 57, 58);
+            margin-top: 5rem;
+            margin-bottom: 0.2rem;
+        }
+    
+        .second-text{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4rem;
+            color: rgb(55, 57, 58);
+            font-variant : small-caps;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+    
+        .line-about{
+            align-items: center;
+            width: 4rem;
+            height: 0.2rem;
+            background-color: #f38181;
+            margin-bottom: 4rem;
+        }
+    
+        .description{
+            margin-bottom: 6rem;
+            p{
+                text-align: center;
+            }
+           
+        }
+    }
+    
+    .about{
+        background-color: white;
+    
+    
+        .fact{
+            background-color: #95e1d3;
+            color: white;
+            font-family:'Montserrat', sans-serif;
+    
+            .col{
+                border-left-style: solid;  
+                border-right-style: solid; 
+                border-left-width: 0.1rem ;
+                border-right-width: 0.1rem;
+                padding-top: 8rem;
+                padding-bottom: 8rem;
+            }
+            
+            .num{
+                font-weight: bold;
+                font-size: 5rem;
+                text-align: center;
+            }
+        
+            .type{
+                font-size: 1.5rem;
+                font-variant : small-caps;
+                text-align: center;
+            }
+        
+        }
+    }
+    
+    .image-hover{
+        margin-bottom: 6rem;
+    }
+    
+    .blog-relative {
+        position: relative;
+        .blog-hover-color{
+            display: none;
+        }
+        &:hover {
+            .blog-hover-color{
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background : linear-gradient(#e4837e, #edd083);
+                opacity: 0.8; 
+                top: 0;
+            
+            }
+        }
+    } 
+    
+    .service{
+        background-color: white;
+        padding-bottom: 4rem;
+    
+        .line-service{
+            width: auto;
+            background-color: #e5e5e5;
+            margin-bottom: 4rem;
+        }
+    
+        .detail{
+    
+            h3{
+                color: #1b1b1b;
+                font-family: 'Montserrat', sans-serif;
+                font-variant : small-caps;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+    
+            p{
+                color: #8d8d8d;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    
+    .design{
+    
+        background-image: url("/../images/design/bg.jpg");
+        background-size: cover;
+        background-repeat: repeat-x;
+        width:100%; 
+        height:100%;
+        position: relative;
+     
+    
+        .d-block {
+            margin-right: auto;
+            margin-left: auto;
+            height: 70%;
+        }
+    
+        .items-device{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        
+    }
+    
+    .servicr2{
+        background-color: white;
+        margin-top: -2rem;
+    
+        .detail-service{
+            padding-bottom: 4rem;
+        }
+    
+        .btn{
+            color:  rgb(55, 57, 58);
+            font-family: 'Montserrat', sans-serif;
+            font-variant : small-caps;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration:none;
+        }
+    
+        .box{
+            position: relative;
+            width:100%; 
+        }
+    
+        .arrow{
+            position: absolute;
+            right: 0;
+            top: 12;
+        }
+    
+        .card-header {
+            background-color:transparent ;  
+        }
+    
+        .card{
+            margin-bottom: 1rem;
+        }
+    
+        .quote{
+            align-items: center;
+            
+            .col{
+                text-align: right;
+            }
+    
+            .col-8{
+                align-items: center;
+                padding-top: 0.5rem;
+            }
+    
+            .line-about{
+                width: 4rem;
+                height: 0.2rem;
+                background-color: #f38181;
+                float: left;
+                margin-right: 1rem;
+                margin-top: 0.7rem;
+            }
+    
+            p{
+                color:  rgb(55, 57, 58);
+                font-family: 'Montserrat', sans-serif;
+                font-style: italic;
+                font-size: 1.5rem;
+            }
+    
+            .img-fluid{
+                border-style: solid;
+                border-width: 2px;
+                border-color: #95e1d3;
+                padding: 5rem;
+            }
+    
+            .name{
+                color:  rgb(55, 57, 58);
+                font-family: 'Kaushan Script', cursive;
+                font-size: 1.5rem;
+            }
+    
+        }
+    }
+    
+    .bg-gray{
+        background-color: #f8f8f8;
+        width: auto;
+        height: auto;
+        padding: 4rem;
+    }
+    
+    .team{
+        background-color: white;
+    
+        .name-team{
+            text-align: center;
+            color:  rgb(55, 57, 58);
+            font-family: 'Montserrat', sans-serif;
+            font-variant : small-caps;
+            font-size: 2rem;
+            font-weight: bold;
+            padding-top: 2rem;
+        }
+    
+        .position-team{
+            text-align: center;
+            color:  rgb(55, 57, 58);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,34 @@
+#header{
+    .navbar-inner{
+        position: relative;
+        z-index: 1;
+        
+        .navbar-brand{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color:white;
+            font-weight:bold;
+        }
+    
+        .nav-item {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color:white;
+            margin-right: 2rem;
+        }
+        
+        .nav-item::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: rgb(235, 245, 151);
+            transition: width .3s;
+            color: rgb(235, 245, 151);
+        }
+        
+        .nav-item:hover::after {
+            width: 100%;
+        }
+    }
+}
