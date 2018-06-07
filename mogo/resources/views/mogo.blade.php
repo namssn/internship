@@ -1,26 +1,26 @@
 @extends('layouts.master') @section('content')
 
-<div id="home">
-<section class="banner">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+<section class="banner" id="home">
+    <div id="slide-banner" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <div class="tab">
-                <li class="li-banner" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li class="li-banner" data-target="#slide-banner" data-slide-to="0" class="active"></li>
                 <span class="number">01</span>&nbsp
                 <span class="text">INTRO</span>
             </div>
             <div class="tab">
-                <li class="li-banner" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li class="li-banner" data-target="#slide-banner" data-slide-to="1"></li>
                 <span class="number">02</span>&nbsp
                 <span class="text">WORK</span>
             </div>
             <div class="tab">
-                <li class="li-banner" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li class="li-banner" data-target="#slide-banner" data-slide-to="2"></li>
                 <span class="number">03</span>&nbsp
                 <span class="text">ABOUT</span>
             </div>
             <div class="tab">
-                <li class="li-banner" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li class="li-banner" data-target="#slide-banner" data-slide-to="3"></li>
                 <span class="number">04</span>&nbsp
                 <span class="text">CONTACTS</span>
             </div>
@@ -114,23 +114,21 @@
             </div>
         </div>
 
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#slide-banner" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#slide-banner" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
 </section>
 
-
-
-<section class="about">
-    <div class="row">
-        <div class="col">
-            <div class="container">
+<section class="about" id="home">
+    <div class="container"> 
+        <div class="row">
+            <div class="col">
                 <div class="group-title">
                     <div class="col-12">
                         <h3 class="first-text">
@@ -152,12 +150,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="image-about">
-                <div class="container">
+                
+                <div class="image-about">                   
                     <div class="row">
-
                         <div class="col">
                             <div class="blog-relative">
                                 <a class="imghover" href="#">
@@ -184,12 +179,12 @@
                                 <div class="blog-hover-color"></div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class="fact">
         <div class="container">
@@ -223,10 +218,10 @@
     </div>
 </section>
 
-<section class="service">
-    <div class="row">
-        <div class="col">
-            <div class="container">
+<section class="service" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col">
                 <div class="group-title">
                     <div class="col-12">
                         <h3 class="first-text">
@@ -242,99 +237,114 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
+       
         <div class="detail">
             <div class="row">
-
-                @for($i=1;$i<=5;$i++)
                 <div class="col">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="pic">
                                 <img src="{{asset('images/service/clock.png')}}" alt="clock" class="img-fluid">
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-9">
                             <h3>photography</h3>
-                            <br>
                             <p>Lorem ipsum dolor sit amet, consectetur
                             <br> adipiscing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                 </div>
-                @endfor
 
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="pic">
+                                <img src="{{asset('images/service/web.png')}}" alt="web" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h3>web design</h3>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing
+                            <br> elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="pic">
+                                <img src="{{asset('images/service/com.png')}}" alt="com" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h3>creativity</h3>
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed
+                            <br> do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="line-service"></hr>
+
+            <div class="row">
+            
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="pic">
+                                <img src="{{asset('images/service/book.png')}}" alt="book" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h3>seo</h3>
+                            <p>Ipsum dolor sit amet, consectetur
+                            <br> adipiscing elit, sed do eiusmod.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="pic">
+                                <img src="{{asset('images/service/home.png')}}" alt="home" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h3>css/html</h3>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing
+                            <br> elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="pic">
+                                <img src="{{asset('images/service/digital.png')}}" alt="digital" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h3>digital</h3>
+                            <br>
+                            <p>Sit amet, consectetur adipiscing elit, sed
+                            <br> do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>               
             </div>
         </div>
     </div>
-
-                    {{-- <div class="pic">
-                        <img src="{{asset('images/service/web.png')}}" alt="web">
-                    </div>
-                    <div class="col">
-                        <h3>web design</h3>
-                        <br>
-                        <p>Ipsum dolor sit amet, consectetur adipiscing
-                            <br> elit, sed do eiusmod tempor.</p>
-                    </div>
-
-                    <div class="pic">
-                        <img src="{{asset('images/service/com.png')}}" alt="com">
-                    </div>
-                    <div class="col">
-                        <h3>creativity</h3>
-                        <br>
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed
-                            <br> do eiusmod tempor.</p>
-                    </div>
-                </div>
-                <br>
-                <div>
-                    <hr class="line-service"></hr>
-                </div>
-
-                <div class="container"></div>
-                <div class="row">
-                    <div class="pic">
-                        <img src="{{asset('images/service/book.png')}}" alt="clock">
-                    </div>
-                    <div class="col">
-                        <h3>seo</h3>
-                        <br>
-                        <p>Ipsum dolor sit amet, consectetur
-                            <br> adipiscing elit, sed do eiusmod.</p>
-                    </div>
-
-                    <div class="pic">
-                        <img src="{{asset('images/service/home.png')}}" alt="web">
-                    </div>
-                    <div class="col">
-                        <h3>css/html</h3>
-                        <br>
-                        <p>Ipsum dolor sit amet, consectetur adipiscing
-                            <br> elit, sed do eiusmod tempor.</p>
-                    </div>
-
-                    <div class="pic">
-                        <img src="{{asset('images/service/digital.png')}}" alt="com">
-                    </div>
-                    <div class="col">
-                        <h3>digital</h3>
-                        <br>
-                        <p>Sit amet, consectetur adipiscing elit, sed
-                            <br> do eiusmod tempor.</p>
-                    </div>
-                </div> --}}
-        
 </section>
 
-<section class="design">
-
-    <div class="row ">
-        <div class="col">
-            <div class="container">
+<section class="design" id="home">
+    <div class="container">
+        <div class="row ">
+            <div class="col">
                 <div class="group-title">
                     <div class="col-12">
                         <h3 class="first-text">
@@ -351,16 +361,18 @@
             </div>
         </div>
     </div>
+
     <div class="items-device">
         <img class="d-block img-fluid" src="{{asset('images/design/device.png')}}" alt="device">
     </div>
+    
 
 </section>
 
-<section class="servicr2">
-    <div class="row">
-        <div class="col">
-            <div class="container">
+<section class="servicr2" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col">
                 <div class="group-title">
                     <div class="col-12">
                         <h3 class="first-text">
@@ -381,7 +393,6 @@
                                     <br>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -475,7 +486,7 @@
         </div>
     </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="slide-qoute" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="bg-gray">
@@ -483,7 +494,6 @@
                         <div class="row">
                             <div class="col">
                                 <div class="quote">
-
                                     <div class="row">
                                         <div class="col">
                                             <img class="img-fluid" src="{{asset('images/service2/speech.png')}}" alt="speech">&nbsp
@@ -498,7 +508,6 @@
                                             <hr class="line-about"></hr>
 
                                             <div class="name">Jon Doe</div>
-
                                         </div>
                                     </div>
 
@@ -515,7 +524,6 @@
                         <div class="row">
                             <div class="col">
                                 <div class="quote">
-
                                     <div class="row">
                                         <div class="col">
                                             <img class="img-fluid" src="{{asset('images/service2/speech.png')}}" alt="speech">&nbsp
@@ -526,28 +534,22 @@
                                                 <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                                 <br> quis nostrud exercitation.”
                                             </p>
-
                                             <hr class="line-about"></hr>
-
                                             <div class="name">Jon Doe</div>
-
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="carousel-item">
                 <div class="bg-gray">
                     <div class="container">
                         <div class="row">
                             <div class="col">
                                 <div class="quote">
-
                                     <div class="row">
                                         <div class="col">
                                             <img class="img-fluid" src="{{asset('images/service2/speech.png')}}" alt="speech">&nbsp
@@ -558,35 +560,30 @@
                                                 <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                                 <br> quis nostrud exercitation.”
                                             </p>
-
                                             <hr class="line-about"></hr>
-
                                             <div class="name">Jon Doe</div>
-
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#slide-qoute" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#slide-qoute" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
+   
 </section>
 
-<section class="team">
+<section class="team" id="home">
     <div class="row">
         <div class="col">
             <div class="container">
@@ -600,9 +597,7 @@
                             meet our team
                             <br>
                         </h1>
-
                         <hr class="line-about"></hr>
-
                         <div class="description">
                             <div class="col">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -610,13 +605,11 @@
                                     <br>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="image-hover">
         <div class="container">
             <div class="row">
@@ -630,7 +623,6 @@
                     <h5 class="name-team">matthew dix</h5>
                     <p class="position-team">Graphic Design</p>
                 </div>
-
                 <div class="col">
                     <div class="blog-relative">
                         <a class="imghover" href="#">
@@ -641,9 +633,7 @@
 
                     <h5 class="name-team">christopher campbell</h5>
                     <p class="position-team">Branding/UX design</p>
-
                 </div>
-
                 <div class="col">
                     <div class="blog-relative">
                         <a class="imghover" href="#">
@@ -651,33 +641,462 @@
                         </a>
                         <div class="blog-hover-color"></div>
                     </div>
-
                     <h5 class="name-team">michael fertig </h5>
                     <p class="position-team">Developer</p>
-
                 </div>
-
             </div>
         </div>
     </div>
 
     <div class="bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="logo">
-                        <div class="row">
-                            <img class="img-fluid" src="{{asset('images/group/logo.png')}}" alt="logo">
+        <div class="container">    
+            <div class="logo">
+                <div class="row">
+                    <div class="col">
+                        <img class="img-fluid" src="{{asset('images/group/logo1.png')}}" alt="logo">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="{{asset('images/group/logo2.png')}}" alt="logo">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="{{asset('images/group/logo3.png')}}" alt="logo">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="{{asset('images/group/logo4.png')}}" alt="logo">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="{{asset('images/group/logo5.png')}}" alt="logo">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="{{asset('images/group/logo6.png')}}" alt="logo">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="work">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="group-title">
+                    <div class="col-12">
+                        <h3 class="first-text">
+                            What we do
+                            <br>
+                        </h3>
+                        <h1 class="second-text">
+                            some of our work
+                            <br>
+                        </h1>
+                        <hr class="line-about"></hr>
+                        <div class="description">
+                            <div class="col">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    <br>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="pic-random">
+        <div class="row">
+            <div class="col">
+                {{-- jQuery --}}
+            </div>
+        </div>
+    </div>
 
+    <div id="slide-qoute2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="quote">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="img-fluid" src="{{asset('images/service2/speech.png')}}" alt="speech">&nbsp
+                                        </div>
+                                        <div class="col-8">
+                                            <p>
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                <br> quis nostrud exercitation.”
+                                            </p>
 
+                                            <hr class="line-about"></hr>
 
+                                            <div class="name">Jon Doe</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="bg-gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="quote">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="img-fluid" src="{{asset('images/service2/speech.png')}}" alt="speech">&nbsp
+                                        </div>
+                                        <div class="col-8">
+                                            <p>
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                <br> quis nostrud exercitation.”
+                                            </p>
+                                            <hr class="line-about"></hr>
+                                            <div class="name">Jon Doe</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="quote">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="img-fluid" src="{{asset('images/service2/speech.png')}}" alt="speech">&nbsp
+                                        </div>
+                                        <div class="col-8">
+                                            <p>
+                                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                <br> quis nostrud exercitation.”
+                                            </p>
+                                            <hr class="line-about"></hr>
+                                            <div class="name">Jon Doe</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#slide-qoute2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slide-qoute2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<section class="people">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="group-title">
+                    <div class="col-12">
+                        <h3 class="first-text">
+                            for all devices
+                            <br>
+                        </h3>
+                        <h1 class="second-text">
+                            unique design
+                            <br>
+                        </h1>
+                        <hr class="line-about"></hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset('images/people/people1.png')}}" alt="speech">&nbsp
+                        </div>
+                        <div class="col-8">
+                            <h3>
+                                matthew dix
+                            </h3>
+                            <h5>
+                                Graphic Design
+                            </h5>
+
+                            <hr class="line-people"></hr>
+                            <br>
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            <br> quis nostrud exercitation.”
+                                        </p>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset('images/people/people2.png')}}" alt="speech">&nbsp
+                        </div>
+                        <div class="col-8">
+                            <h3>
+                                nick karvounis
+                            </h3>
+                            <h5>
+                                Graphic Design
+                            </h5>
+
+                            <hr class="line-people"></hr>
+                            <br>
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            <br> quis nostrud exercitation.”
+                                        </p>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset('images/people/people3.png')}}" alt="speech">&nbsp
+                        </div>
+                        <div class="col-8">
+                            <h3>
+                                jaelynn castillo 
+                            </h3>
+                            <h5>
+                                Graphic Design
+                            </h5>
+
+                            <hr class="line-people"></hr>
+                            <br>
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            <br> quis nostrud exercitation.”
+                                        </p>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset('images/people/people4.png')}}" alt="speech">&nbsp
+                        </div>
+                        <div class="col-8">
+                            <h3>
+                                mike petrucci
+                            </h3>
+                            <h5>
+                                Graphic Design
+                            </h5>
+
+                            <hr class="line-people"></hr>
+                            <br>
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            <br> quis nostrud exercitation.”
+                                        </p>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+    </div>
+</section>
+
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="group-title">
+                    <div class="col-12">
+                        <h3 class="first-text">
+                            Our stories
+                            <br>
+                        </h3>
+                        <h1 class="second-text">
+                            latest blog
+                            <br>
+                        </h1>
+                        <hr class="line-about"></hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="picture">
+                    <img src="{{asset('images/blog/women.jpg')}}" alt="women" class="img-fluid">
+                </div>
+                <div class="blue-box">
+                    <div class="text">
+                        <h3>15</h3>
+                        <p>Jan</p>
+                    </div>
+                </div>
+                <div class="detail-pic">
+                    <h5>lorem ipsum dolor sit amet</h5>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        <br> ut labore et dolore magna aliqua.</p>
+                    <hr></hr>
+                    
+                    <div class="detail-blog">
+                        <div class="row">
+                            <span class="col-1.5">
+                                <img src="{{asset('images/blog/view.png')}}" alt="view" class="img-fluid">
+                            </span>
+                            <span class="col-2">
+                                <p>542</p>
+                            </span>
+                            <span class="col-1.5">
+                                <img src="{{asset('images/blog/comment.png')}}" alt="comment" class="img-fluid">
+                            </span>
+                            <span class="col">
+                                <p>17</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="picture">
+                    <img src="{{asset('images/blog/com.jpg')}}" alt="com" class="img-fluid">
+                </div>
+                <div class="blue-box">
+                    <div class="text">
+                        <h3>14</h3>
+                        <p>Jan</p>
+                    </div>
+                </div>
+                <div class="detail-pic">
+                    <h5>lorem ipsum dolor sit amet</h5>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        <br> ut labore et dolore magna aliqua.</p>
+                    <hr></hr>
+                    <div class="detail-blog">
+                        <div class="row">
+                            <span class="col-1.5">
+                                <img src="{{asset('images/blog/view.png')}}" alt="view" class="img-fluid">
+                            </span>
+                            <span class="col-2">
+                                <p>992</p>
+                            </span>
+                            <span class="col-1.5">
+                                <img src="{{asset('images/blog/comment.png')}}" alt="comment" class="img-fluid">
+                            </span>
+                            <span class="col">
+                                <p>42</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="picture">
+                    <img src="{{asset('images/blog/ipad.jpg')}}" alt="ipad" class="img-fluid">
+                </div>
+                <div class="blue-box">
+                    <div class="text">
+                        <h3>12</h3>
+                        <p>Jan</p>
+                    </div>
+                </div>
+                <div class="detail-pic">
+                    <h5>lorem ipsum dolor sit amet</h5>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        <br> ut labore et dolore magna aliqua.</p>
+                    <hr></hr>                   
+                    <div class="detail-blog">
+                        <div class="row">
+                            <span class="col-1.5">
+                                <img src="{{asset('images/blog/view.png')}}" alt="view" class="img-fluid">
+                            </span>
+                            <span class="col-2">
+                                <p>1560</p>
+                            </span>
+                            <span class="col-1.5">
+                                <img src="{{asset('images/blog/comment.png')}}" alt="comment" class="img-fluid">
+                            </span>
+                            <span class="col">
+                                <p>98</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="map">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
 
 </section>
-</div>
 @endsection

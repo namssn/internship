@@ -10445,67 +10445,33 @@ a.text-dark:focus {
   width: 100%;
 }
 
-#home .navbar-inner {
-  position: relative;
-  z-index: 1;
-}
-
-#home .navbar-inner .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-}
-
-#home .navbar-inner .nav-item {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  color: white;
-  margin-right: 2rem;
-}
-
-#home .navbar-inner .nav-item::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #ebf597;
-  -webkit-transition: width .3s;
-  transition: width .3s;
-  color: #ebf597;
-}
-
-#home .navbar-inner .nav-item:hover::after {
-  width: 100%;
-}
-
-#home .banner {
+.banner {
   margin-top: -50px;
 }
 
-#home .banner .carousel-indicators .active {
+.banner .carousel-indicators .active {
   background-color: transparent;
 }
 
-#home .banner .card-title {
+.banner .card-title {
   font-family: 'Kaushan Script', cursive;
   font-size: 5rem;
   color: white;
 }
 
-#home .banner .card-text {
+.banner .card-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 9rem;
   color: white;
 }
 
-#home .banner .banner-text {
+.banner .banner-text {
   text-align: center;
   margin-top: 8rem;
 }
 
-#home .banner .btn-banner {
+.banner .btn-banner {
   margin-top: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -10513,7 +10479,7 @@ a.text-dark:focus {
   text-align: center;
 }
 
-#home .banner .line-banner {
+.banner .line-banner {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -10522,32 +10488,32 @@ a.text-dark:focus {
   background-color: white;
 }
 
-#home .banner .tab {
+.banner .tab {
   width: 100%;
 }
 
-#home .banner .tab .number {
+.banner .tab .number {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
 }
 
-#home .banner .tab .text {
+.banner .tab .text {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: white;
 }
 
-#home .banner .tab .li-banner {
+.banner .tab .li-banner {
   width: auto;
 }
 
-#home .group-title {
+.group-title {
   text-align: center;
 }
 
-#home .group-title .first-text {
+.group-title .first-text {
   font-family: 'Kaushan Script', cursive;
   font-size: 2rem;
   color: #37393a;
@@ -10555,7 +10521,7 @@ a.text-dark:focus {
   margin-bottom: 0.2rem;
 }
 
-#home .group-title .second-text {
+.group-title .second-text {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   color: #37393a;
@@ -10564,7 +10530,7 @@ a.text-dark:focus {
   margin-bottom: 2rem;
 }
 
-#home .group-title .line-about {
+.group-title .line-about {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -10574,25 +10540,29 @@ a.text-dark:focus {
   margin-bottom: 4rem;
 }
 
-#home .group-title .description {
+.group-title .description {
   margin-bottom: 6rem;
 }
 
-#home .group-title .description p {
+.group-title .description p {
   text-align: center;
 }
 
-#home .about {
+.about {
   background-color: white;
 }
 
-#home .about .fact {
+.about .image-about {
+  padding-bottom: 4rem;
+}
+
+.about .fact {
   background-color: #95e1d3;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-#home .about .fact .col {
+.about .fact .col {
   border-left-style: solid;
   border-right-style: solid;
   border-left-width: 0.1rem;
@@ -10601,31 +10571,31 @@ a.text-dark:focus {
   padding-bottom: 8rem;
 }
 
-#home .about .fact .num {
+.about .fact .num {
   font-weight: bold;
   font-size: 5rem;
   text-align: center;
 }
 
-#home .about .fact .type {
+.about .fact .type {
   font-size: 1.5rem;
   font-variant: small-caps;
   text-align: center;
 }
 
-#home .image-hover {
+.image-hover {
   margin-bottom: 6rem;
 }
 
-#home .blog-relative {
+.blog-relative {
   position: relative;
 }
 
-#home .blog-relative .blog-hover-color {
+.blog-relative .blog-hover-color {
   display: none;
 }
 
-#home .blog-relative:hover .blog-hover-color {
+.blog-relative:hover .blog-hover-color {
   display: block;
   position: absolute;
   width: 100%;
@@ -10636,18 +10606,23 @@ a.text-dark:focus {
   top: 0;
 }
 
-#home .service {
+.service {
   background-color: white;
   padding-bottom: 4rem;
 }
 
-#home .service .line-service {
+.service .line-service {
   width: auto;
   background-color: #e5e5e5;
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
-#home .service .detail h3 {
+.service .detail .pic {
+  float: right;
+}
+
+.service .detail h3 {
   color: #1b1b1b;
   font-family: 'Montserrat', sans-serif;
   font-variant: small-caps;
@@ -10655,12 +10630,12 @@ a.text-dark:focus {
   font-weight: bold;
 }
 
-#home .service .detail p {
+.service .detail p {
   color: #8d8d8d;
   font-family: 'Montserrat', sans-serif;
 }
 
-#home .design {
+.design {
   background-image: url("/../images/design/bg.jpg");
   background-size: cover;
   background-repeat: repeat-x;
@@ -10669,28 +10644,28 @@ a.text-dark:focus {
   position: relative;
 }
 
-#home .design .d-block {
+.design .d-block {
   margin-right: auto;
   margin-left: auto;
   height: 70%;
 }
 
-#home .design .items-device {
+.design .items-device {
   position: absolute;
   width: 100%;
   bottom: 0;
 }
 
-#home .servicr2 {
+.servicr2 {
   background-color: white;
   margin-top: -2rem;
 }
 
-#home .servicr2 .detail-service {
+.servicr2 .detail-service {
   padding-bottom: 4rem;
 }
 
-#home .servicr2 .btn {
+.servicr2 .btn {
   color: #37393a;
   font-family: 'Montserrat', sans-serif;
   font-variant: small-caps;
@@ -10699,43 +10674,43 @@ a.text-dark:focus {
   text-decoration: none;
 }
 
-#home .servicr2 .box {
+.servicr2 .box {
   position: relative;
   width: 100%;
 }
 
-#home .servicr2 .arrow {
+.servicr2 .arrow {
   position: absolute;
   right: 0;
   top: 12;
 }
 
-#home .servicr2 .card-header {
+.servicr2 .card-header {
   background-color: transparent;
 }
 
-#home .servicr2 .card {
+.servicr2 .card {
   margin-bottom: 1rem;
 }
 
-#home .servicr2 .quote {
+.quote {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#home .servicr2 .quote .col {
+.quote .col {
   text-align: right;
 }
 
-#home .servicr2 .quote .col-8 {
+.quote .col-8 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 0.5rem;
 }
 
-#home .servicr2 .quote .line-about {
+.quote .line-about {
   width: 4rem;
   height: 0.2rem;
   background-color: #f38181;
@@ -10744,38 +10719,38 @@ a.text-dark:focus {
   margin-top: 0.7rem;
 }
 
-#home .servicr2 .quote p {
+.quote p {
   color: #37393a;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-size: 1.5rem;
 }
 
-#home .servicr2 .quote .img-fluid {
+.quote .img-fluid {
   border-style: solid;
   border-width: 2px;
   border-color: #95e1d3;
   padding: 5rem;
 }
 
-#home .servicr2 .quote .name {
+.quote .name {
   color: #37393a;
   font-family: 'Kaushan Script', cursive;
   font-size: 1.5rem;
 }
 
-#home .bg-gray {
+.bg-gray {
   background-color: #f8f8f8;
   width: auto;
   height: auto;
   padding: 4rem;
 }
 
-#home .team {
+.team {
   background-color: white;
 }
 
-#home .team .name-team {
+.team .name-team {
   text-align: center;
   color: #37393a;
   font-family: 'Montserrat', sans-serif;
@@ -10785,11 +10760,175 @@ a.text-dark:focus {
   padding-top: 2rem;
 }
 
-#home .team .position-team {
+.team .position-team {
   text-align: center;
   color: #37393a;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
+}
+
+.work {
+  background-color: white;
+}
+
+.work .pic-random {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e4837e), to(#edd083));
+  background: linear-gradient(#e4837e, #edd083);
+  height: 40rem;
+  width: auto;
+}
+
+.people {
+  background-image: url("/../images/people/bg.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #37393a;
+}
+
+.people .blog-small {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.people .line-people {
+  width: 6rem;
+  height: 0.2rem;
+  background-color: #f38181;
+  margin-bottom: 2rem;
+  float: left;
+}
+
+.people .detail {
+  float: left;
+}
+
+.people h3 {
+  font-variant: small-caps;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.blog {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: #37393a;
+}
+
+.blog .picture {
+  position: relative;
+}
+
+.blog .blue-box {
+  background-color: #95e1d3;
+  position: relative;
+  width: 4rem;
+  height: 5rem;
+  bottom: 6rem;
+  right: 1rem;
+}
+
+.blog .blue-box .text {
+  padding: 0.3rem;
+  color: white;
+  text-align: center;
+}
+
+.blog .blue-box .text h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.blog .blue-box .text p {
+  font-style: italic;
+}
+
+.blog .detail-pic h5 {
+  font-variant: small-caps;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.blog .detail-blog {
+  padding-left: 2rem;
+}
+
+.blog .map {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e4837e), to(#edd083));
+  background: linear-gradient(#e4837e, #edd083);
+  height: 15rem;
+  width: auto;
+  margin-top: 4rem;
+}
+
+#footer {
+  background-color: #ebebeb;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 4rem;
+}
+
+#footer .socials {
+  margin-left: 2rem;
+}
+
+#footer .socials h6 {
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+}
+
+#footer .socialhover {
+  margin-left: 0.5rem;
+}
+
+#footer .input-group {
+  margin-top: 2rem;
+}
+
+#footer .ig {
+  margin-top: 1rem;
+}
+
+#footer .btn {
+  background-color: #95e1d3;
+  color: white;
+  border: 1px solid #ced4da;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding: 1rem;
+}
+
+#footer .footer-inner h1 {
+  color: #999999;
+  font-weight: bold;
+}
+
+#footer .footer-inner p {
+  color: #999999;
+}
+
+#footer .footer-inner h3 {
+  color: #131313;
+  font-weight: bold;
+}
+
+#footer .footer-inner h5 {
+  color: #131313;
+  font-weight: bold;
+}
+
+#footer .footer-inner h6 {
+  color: #999999;
+  font-style: italic;
+}
+
+#footer .footer-inner h4 {
+  color: #131313;
+  font-size: 1.5rem;
+  font-variant: small-caps;
 }
 
 .navbar-laravel {
