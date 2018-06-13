@@ -1,64 +1,156 @@
+
 .banner{ 
+
+    
+    // margin-top: -50px;
 
     .carousel-indicators .active {
         background-color: transparent;
-    }
-
-    .card-title{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 5rem;
-    color:white;
-    }
-
-    .card-text{
-        font: {
-            family: 'Montserrat', sans-serif;
-            weight:bold;
-            size: 9rem;
-        }
-        color:white;  
-    }
-
-    .banner-text{
-        text-align: center;
-        margin-top: 8rem;
-    }
-    margin-top: -50px;
-    
-    .btn-banner{
-        margin-top: 5rem;
-        align-items: center;
-        text-align: center;
+        width: 100%;
     }
 
     .line-banner{
         align-items: center;
         width: 4rem;
-        height: 0.2rem;
+        height: 0.1rem;
         background-color: white;
+        @media screen and (max-width: 425px) {
+            margin-top: -0.5rem;
+        }
     }
 
-    .tab{
+    .row{
         width: 100%;
-
         .number{
             font-family: 'Montserrat', sans-serif;
             font-size: 1.5rem;
             font-weight:bold;
             color: white;
+            @media screen and (max-width: 425px) {
+                font-size:1rem;
+            }
+            @media screen and (max-width: 375px) {
+                font-size: 0.9rem;
+            }
+            @media screen and (max-width: 320px) {
+                font-size: 0.7rem;
+            }
         }
 
         .text{
             font-family: 'Montserrat', sans-serif;
             font-size: 1rem;
             color: white;
+            @media screen and (max-width: 425px) {
+                font-size:1rem;
+            }
+            @media screen and (max-width: 375px) {
+                font-size: 0.8rem;
+            }
+            @media screen and (max-width: 320px) {
+                font-size: 0.5rem;
+            }
         }
 
         .li-banner{
             width: auto;
         } 
-    }  
+    }
+
+.carousel-caption{
+    top: 150;
+    margin-left: 5rem;
+    @media screen and (max-width: 1024px) {
+        top: 100;
+        margin-left: 5rem;
+    }
+    @media screen and (max-width: 768px) {
+        top: 70;
+        margin-left: 5rem;
+    }
+    @media screen and (max-width: 425px) {
+        top: 40;
+        margin-left: 5rem;
+    }
+    @media screen and (max-width: 375px) {
+        top: 35;
+        margin-left: 5rem;
+    }
 }
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 9rem;
+    color:white;
+    @media screen and (max-width: 1024px) {
+        font-size: 6rem;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 4rem;
+    }
+    @media screen and (max-width: 425px) {
+        font-size: 2rem;
+        padding-top: -2rem;
+    }
+    @media screen and (max-width: 375px) {
+        font-size: 1.5rem;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 1.3rem;
+    }
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 7rem;
+    color:white; 
+    @media screen and (max-width: 1024px) {
+        font-size: 4rem;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+    }
+    @media screen and (max-width: 425px) {
+        font-size: 1rem;
+        padding-top: -2rem;
+        padding-bottom: -2rem;
+        
+    } 
+    @media screen and (max-width: 375px) {
+        font-size: 1rem;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 1rem;
+    }
+}
+
+#btn-learn-more{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    @media screen and (max-width: 1024px) {
+        font-size: 1.5rem;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 1.3rem;
+    }
+    @media screen and (max-width: 425px) {
+        font-size: 1rem;
+       
+    }
+    @media screen and (max-width: 375px) {
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 0.5rem;
+        margin-top: -1rem;
+    }
+}
+
+}
+
+
 
 .group-title{
     text-align: center;
@@ -108,15 +200,21 @@
         color: white;
         font-family:'Montserrat', sans-serif;
 
-        .col{
+        .col-lg , .col-xl{
             border-left-style: solid;  
             border-right-style: solid; 
             border-left-width: 0.1rem ;
             border-right-width: 0.1rem;
-            padding-top: 8rem;
-            padding-bottom: 8rem;
+            padding-top: 1rem;
         }
-        
+
+        .col-md{
+            border-left-style: solid;  
+            border-right-style: solid; 
+            border-left-width: 0.1rem ;
+            border-right-width: 0.1rem;
+        }
+
         .num{
             font-weight: bold;
             font-size: 5rem;
@@ -138,6 +236,8 @@
 
 .blog-relative {
     position: relative;
+    margin-bottom: 2rem;
+    
     .blog-hover-color{
         display: none;
     }
@@ -150,7 +250,60 @@
             background : linear-gradient(#e4837e, #edd083);
             opacity: 0.8; 
             top: 0;
-        
+
+            p{
+                color: white;
+                font-family:'Montserrat', sans-serif;
+                text-align: center;
+                font-size: 3rem;
+                margin-top: 9rem;
+                @media screen and (max-width: 1024px) {
+                    margin-top: 7rem;
+                }
+                @media screen and (max-width: 768px) {
+                    margin-top: 5rem;
+                }
+                @media screen and (max-width: 425px) {
+                    margin-top: 11rem;
+                }
+                @media screen and (max-width: 375px) {
+                    margin-top: 9rem;
+                }
+                @media screen and (max-width: 320px) {
+                    margin-top: 8rem;
+                }
+            }
+
+            .row{
+                margin-top: 18rem;
+                margin-left: 6rem;
+                @media screen and (max-width: 1024px) {
+                    margin-left: 3.5rem;
+                    margin-top: 15rem;
+                }
+                @media screen and (max-width: 768px) {
+                    margin-left: 2.5rem;
+                    margin-top: 11rem;
+                }
+                @media screen and (max-width: 425px) {
+                    margin-left: 8rem;
+                    margin-top: 20rem;
+                }
+                @media screen and (max-width: 375px) {
+                    margin-left: 6rem;
+                    margin-top: 20rem;
+                }
+                @media screen and (max-width: 320px) {
+                    margin-left: 3.5rem;
+                    margin-top: 15rem;
+                }
+
+                img{
+                    @media screen and (width: 768px) {
+                        width: 4rem;
+                    }
+                }
+            }
         }
     }
 } 
@@ -251,14 +404,6 @@
 .quote{
     align-items: center;
     
-    .col{
-        text-align: right;
-    }
-
-    .col-8{
-        align-items: center;
-        padding-top: 0.5rem;
-    }
 
     .line-about{
         width: 4rem;
@@ -280,7 +425,11 @@
         border-style: solid;
         border-width: 2px;
         border-color: #95e1d3;
-        padding: 5rem;
+        padding: 4rem;
+    }
+
+    #box-pic{
+        text-align: center;
     }
 
     .name{
@@ -317,14 +466,56 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 1.3rem;
     }
+
+    .group-title{
+        padding-top: 2rem;
+    }
 }
 
 .work{
     background-color: white;
-    .pic-random{
-        background : linear-gradient(#e4837e, #edd083);
-        height: 40rem;
+
+    .quote2{
+        align-items: center;
+    
+        .line-about{
+            width: 4rem;
+            height: 0.2rem;
+            background-color: #f38181;
+            float: left;
+            margin-right: 1rem;
+            margin-top: 0.7rem;
+        }
+    
+        p{
+            color:  rgb(55, 57, 58);
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+            font-size: 1.5rem;
+        }
+
+        .circle{
+            text-align: center;
+            height: auto;  
+            width: auto; 
+            border: 3px solid #fff; 
+            border-radius: 50%; /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+            padding-top: -6rem;
+        }
+    
+        .name{
+            color:  rgb(55, 57, 58);
+            font-family: 'Kaushan Script', cursive;
+            font-size: 1.5rem;
+        }
+    
+    }
+    
+    .bg-white{
+        background-color:white;
         width: auto;
+        height: auto;
+        padding: 4rem;
     }
 }
 
@@ -333,7 +524,7 @@
     background-size: cover;
     background-repeat: repeat-x;
     width:100%; 
-    height:100%;
+    height:auto;
     font-family: 'Montserrat', sans-serif;
     color: rgb(55, 57, 58);
 
@@ -393,7 +584,10 @@
         
     }
 
-    .detail-pic{        
+    .detail-pic{    
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+            
         h5{
             font-variant : small-caps;
             font-size: 1.7rem;
@@ -402,90 +596,71 @@
     }
 
     .detail-blog{
-        padding-left: 2rem;
+        img{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
     }
 
     .map{
-        background : linear-gradient(#e4837e, #edd083);
-        height: 15rem;
-        width: auto;
+        text-align: center;
+        align-items: center;
+        padding-top: 2rem;
         margin-top:4rem;
-    }
-}
-
-#footer{
-    background-color: #ebebeb;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 4rem;
-
-    .socials{
-        margin-left: 2rem;
-
-        h6{
-            margin-top: 0.3rem;
-            margin-right: 1rem;
-        }
-    }
-
-    .socialhover{
-        margin-left: 0.5rem;
-    }
-
-    .input-group{
-        margin-top:2rem;
-    }
-
-    .ig{
-        margin-top: 1rem;
-    }
-
-    .btn{
-        background-color: #95e1d3;
-        color: white;
-        border: 1px solid #ced4da;
-    }
-
-    .copyright{
-            text-align: center;
-            padding: 1rem;
-    }
-
-
-    .footer-inner{
-        h1{
-            color: #999999;
-            font-weight: bold;
-        }
-
-        p{
-            color: #999999;
-        }
-
-        h3{
-            color: #131313;
-            font-weight: bold;
-        }
-
-        h5{
-            color: #131313;
-            font-weight: bold;
-        }
-
-        h6{
-            color: #999999;
-            font-style: italic;
-        }
-
-        h4{
-            color: #131313;
-            font-size: 1.5rem;
-            font-variant : small-caps;
-        }
-
+        background-image: url("/../images/blog/bg.jpg");
+        width: auto;
         
-    }
+        #map{
+            margin-bottom: 2rem;
+        }
 
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            color: #f38181;
+            margin-top:1rem;
+            font-weight: bold;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .line-map{
+            align-items: center;
+            width: 4rem;
+            height: 0.2rem;
+            background-color: #f38181;
+            margin-bottom: 3rem;
+          
+        }
+
+        #demo2{
+            color:rgb(219, 219, 219);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            margin-top:1rem;
+        }
+
+        #show_demo{   
+            width:auto;
+            height:auto;   
+            display:none;   
+            padding:5px;   
+            overflow:hidden;   
+        } 
+    }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

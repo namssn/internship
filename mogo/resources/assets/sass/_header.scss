@@ -1,7 +1,5 @@
 #header{
     .navbar-inner{
-        position: relative;
-        z-index: 1;
         
         .navbar-brand{
             font-family: 'Montserrat', sans-serif;
@@ -18,7 +16,6 @@
         }
         
         .nav-item::after {
-            content: '';
             display: block;
             width: 0;
             height: 2px;
@@ -30,5 +27,15 @@
         .nav-item:hover::after {
             width: 100%;
         }
+
+ 
+        .navbar-toggler-icon{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color:white;
+        }
+     
+
+        
     }
 }

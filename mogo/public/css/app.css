@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+
+/*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10411,11 +10413,6 @@ a.text-dark:focus {
   }
 }
 
-#header .navbar-inner {
-  position: relative;
-  z-index: 1;
-}
-
 #header .navbar-inner .navbar-brand {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -10431,7 +10428,6 @@ a.text-dark:focus {
 }
 
 #header .navbar-inner .nav-item::after {
-  content: '';
   display: block;
   width: 0;
   height: 2px;
@@ -10445,38 +10441,15 @@ a.text-dark:focus {
   width: 100%;
 }
 
-.banner {
-  margin-top: -50px;
+#header .navbar-inner .navbar-toggler-icon {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: white;
 }
 
 .banner .carousel-indicators .active {
   background-color: transparent;
-}
-
-.banner .card-title {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 5rem;
-  color: white;
-}
-
-.banner .card-text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 9rem;
-  color: white;
-}
-
-.banner .banner-text {
-  text-align: center;
-  margin-top: 8rem;
-}
-
-.banner .btn-banner {
-  margin-top: 5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  width: 100%;
 }
 
 .banner .line-banner {
@@ -10484,29 +10457,217 @@ a.text-dark:focus {
       -ms-flex-align: center;
           align-items: center;
   width: 4rem;
-  height: 0.2rem;
+  height: 0.1rem;
   background-color: white;
 }
 
-.banner .tab {
+@media screen and (max-width: 425px) {
+  .banner .line-banner {
+    margin-top: -0.5rem;
+  }
+}
+
+.banner .row {
   width: 100%;
 }
 
-.banner .tab .number {
+.banner .row .number {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
 }
 
-.banner .tab .text {
+@media screen and (max-width: 425px) {
+  .banner .row .number {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner .row .number {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner .row .number {
+    font-size: 0.7rem;
+  }
+}
+
+.banner .row .text {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: white;
 }
 
-.banner .tab .li-banner {
+@media screen and (max-width: 425px) {
+  .banner .row .text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner .row .text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner .row .text {
+    font-size: 0.5rem;
+  }
+}
+
+.banner .row .li-banner {
   width: auto;
+}
+
+.banner .carousel-caption {
+  top: 150;
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner .carousel-caption {
+    top: 100;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .carousel-caption {
+    top: 70;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner .carousel-caption {
+    top: 40;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner .carousel-caption {
+    top: 35;
+    margin-left: 5rem;
+  }
+}
+
+.banner h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 9rem;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner h1 {
+    font-size: 2rem;
+    padding-top: -2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner h1 {
+    font-size: 1.3rem;
+  }
+}
+
+.banner p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 7rem;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner p {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner p {
+    font-size: 1rem;
+    padding-top: -2rem;
+    padding-bottom: -2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner p {
+    font-size: 1rem;
+  }
+}
+
+.banner #btn-learn-more {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner #btn-learn-more {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner #btn-learn-more {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner #btn-learn-more {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner #btn-learn-more {
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner #btn-learn-more {
+    font-size: 0.5rem;
+    margin-top: -1rem;
+  }
 }
 
 .group-title {
@@ -10562,13 +10723,20 @@ a.text-dark:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
-.about .fact .col {
+.about .fact .col-lg,
+.about .fact .col-xl {
   border-left-style: solid;
   border-right-style: solid;
   border-left-width: 0.1rem;
   border-right-width: 0.1rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 1rem;
+}
+
+.about .fact .col-md {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-width: 0.1rem;
+  border-right-width: 0.1rem;
 }
 
 .about .fact .num {
@@ -10589,6 +10757,7 @@ a.text-dark:focus {
 
 .blog-relative {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .blog-relative .blog-hover-color {
@@ -10604,6 +10773,90 @@ a.text-dark:focus {
   background: linear-gradient(#e4837e, #edd083);
   opacity: 0.8;
   top: 0;
+}
+
+.blog-relative:hover .blog-hover-color p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-relative:hover .blog-hover-color p {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-relative:hover .blog-hover-color p {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blog-relative:hover .blog-hover-color p {
+    margin-top: 11rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .blog-relative:hover .blog-hover-color p {
+    margin-top: 9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .blog-relative:hover .blog-hover-color p {
+    margin-top: 8rem;
+  }
+}
+
+.blog-relative:hover .blog-hover-color .row {
+  margin-top: 18rem;
+  margin-left: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-relative:hover .blog-hover-color .row {
+    margin-left: 3.5rem;
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-relative:hover .blog-hover-color .row {
+    margin-left: 2.5rem;
+    margin-top: 11rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blog-relative:hover .blog-hover-color .row {
+    margin-left: 8rem;
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .blog-relative:hover .blog-hover-color .row {
+    margin-left: 6rem;
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .blog-relative:hover .blog-hover-color .row {
+    margin-left: 3.5rem;
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (width: 768px) {
+  .blog-relative:hover .blog-hover-color .row img {
+    width: 4rem;
+  }
 }
 
 .service {
@@ -10699,17 +10952,6 @@ a.text-dark:focus {
           align-items: center;
 }
 
-.quote .col {
-  text-align: right;
-}
-
-.quote .col-8 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 0.5rem;
-}
-
 .quote .line-about {
   width: 4rem;
   height: 0.2rem;
@@ -10730,7 +10972,11 @@ a.text-dark:focus {
   border-style: solid;
   border-width: 2px;
   border-color: #95e1d3;
-  padding: 5rem;
+  padding: 4rem;
+}
+
+.quote #box-pic {
+  text-align: center;
 }
 
 .quote .name {
@@ -10767,15 +11013,57 @@ a.text-dark:focus {
   font-size: 1.3rem;
 }
 
+.team .group-title {
+  padding-top: 2rem;
+}
+
 .work {
   background-color: white;
 }
 
-.work .pic-random {
-  background: -webkit-gradient(linear, left top, left bottom, from(#e4837e), to(#edd083));
-  background: linear-gradient(#e4837e, #edd083);
-  height: 40rem;
+.work .quote2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work .quote2 .line-about {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #f38181;
+  float: left;
+  margin-right: 1rem;
+  margin-top: 0.7rem;
+}
+
+.work .quote2 p {
+  color: #37393a;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.work .quote2 .circle {
+  text-align: center;
+  height: auto;
   width: auto;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+  padding-top: -6rem;
+}
+
+.work .quote2 .name {
+  color: #37393a;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+}
+
+.work .bg-white {
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 4rem;
 }
 
 .people {
@@ -10783,7 +11071,7 @@ a.text-dark:focus {
   background-size: cover;
   background-repeat: repeat-x;
   width: 100%;
-  height: 100%;
+  height: auto;
   font-family: 'Montserrat', sans-serif;
   color: #37393a;
 }
@@ -10845,32 +11133,82 @@ a.text-dark:focus {
   font-style: italic;
 }
 
+.blog .detail-pic {
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+
 .blog .detail-pic h5 {
   font-variant: small-caps;
   font-size: 1.7rem;
   font-weight: bold;
 }
 
-.blog .detail-blog {
-  padding-left: 2rem;
+.blog .detail-blog img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .blog .map {
-  background: -webkit-gradient(linear, left top, left bottom, from(#e4837e), to(#edd083));
-  background: linear-gradient(#e4837e, #edd083);
-  height: 15rem;
-  width: auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
   margin-top: 4rem;
+  background-image: url("/../images/blog/bg.jpg");
+  width: auto;
+}
+
+.blog .map #map {
+  margin-bottom: 2rem;
+}
+
+.blog .map h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f38181;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.blog .map a {
+  text-decoration: none;
+}
+
+.blog .map .line-map {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #f38181;
+  margin-bottom: 3rem;
+}
+
+.blog .map #demo2 {
+  color: #dbdbdb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.blog .map #show_demo {
+  width: auto;
+  height: auto;
+  display: none;
+  padding: 5px;
+  overflow: hidden;
 }
 
 #footer {
-  background-color: #ebebeb;
+  background-color: #f1f1f1;
   font-family: 'Montserrat', sans-serif;
   padding-top: 4rem;
 }
 
 #footer .socials {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 #footer .socials h6 {
@@ -10879,7 +11217,7 @@ a.text-dark:focus {
 }
 
 #footer .socialhover {
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
 }
 
 #footer .input-group {
@@ -10904,6 +11242,7 @@ a.text-dark:focus {
 #footer .footer-inner h1 {
   color: #999999;
   font-weight: bold;
+  margin-top: 2rem;
 }
 
 #footer .footer-inner p {
@@ -10913,6 +11252,8 @@ a.text-dark:focus {
 #footer .footer-inner h3 {
   color: #131313;
   font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 #footer .footer-inner h5 {
@@ -10923,12 +11264,23 @@ a.text-dark:focus {
 #footer .footer-inner h6 {
   color: #999999;
   font-style: italic;
+  padding-left: 0.5rem;
 }
 
 #footer .footer-inner h4 {
   color: #131313;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-variant: small-caps;
+}
+
+#footer .footer-inner a {
+  text-decoration: none;
+}
+
+#footer .footer-inner .form-control {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none;
 }
 
 .navbar-laravel {
