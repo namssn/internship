@@ -1,0 +1,112 @@
+body , html{
+    font-size: 10px;
+}
+
+.backgrond-popup{
+    background-color: #0f182c;
+    background-repeat: repeat-x;
+    width:100%; 
+    height:auto;
+    font-family: 'db_heaventregular';
+    padding-bottom: 4rem;
+
+    .slide-picture{
+        .title{
+            color: #34fefe;
+            font-weight: bold;
+            padding-top: 5rem;
+            h1{
+                font-size: 10rem;
+            }
+        }
+
+        .slide-pic{
+            text-align: center;
+            img{
+                width: auto;
+                height: auto;  
+            }
+            
+        }
+    }
+
+    .detail{
+
+        .title2{
+            color: #34fefe;
+            font-weight: bold;
+            padding-top: 5rem;
+            h2{
+                font-size: 5rem;
+            }
+        }
+
+        .date{
+            margin-right: 25rem;
+            p{
+                color: white;
+                font-size: 3rem;
+            }
+
+            #calender,#clock,#pin{
+                margin-top: 1.5rem;
+            }
+        }
+
+        .paragraph{
+            color: #929292;
+            p{
+                font-size: 3rem;
+                padding-bottom: 3rem;
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: #929292;
+            }
+
+            span{
+                font-weight: bold;
+            }
+        }
+
+        .button-close{
+            
+            .row{
+                text-align: center;
+            }
+
+            #close{
+              margin-top: 0.7rem;  
+              margin-left: 1rem;
+            }
+
+            .btn-outline-danger {
+                color: #ff0063;
+                border-color: #ff0063;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            .btn{
+                border-radius: 0;
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            .btn-outline-danger:hover {
+                background-color: #34fefe; 
+            }
+
+            .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active, .show > .btn-outline-danger.dropdown-toggle {
+                background-color: white;
+                border-color: #ff0063;
+                color: #ff0063;
+            }
+
+        }            
+
+        
+    }
+}
