@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <!-- Custom styles for this template -->
         
+        {{-- css --}}
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
         {{-- img --}}
         <link rel="stylesheet" href="{{asset('fonts/fontawesome-free-5.0.13/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css')}}">
 

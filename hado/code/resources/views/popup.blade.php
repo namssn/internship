@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
+    
 
     <title>- hado -</title>
 </head>
@@ -155,8 +156,7 @@
         </section>
     </section>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="{{asset('js/app.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/slick/slick.min.js')}}"></script>
    
 
@@ -177,6 +177,7 @@
                 slidesToScroll: 1,
                 asNavFor: '.slider-for',
                 centerMode: true,
+                arrows:false,
                 focusOnSelect: true,
             });
         });
