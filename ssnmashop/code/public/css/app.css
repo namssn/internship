@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
-
-/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10413,969 +10411,169 @@ a.text-dark:focus {
   }
 }
 
-#header .navbar-inner .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-}
-
-#header .navbar-inner .nav-item {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  color: white;
-  margin-right: 2rem;
-}
-
-#header .navbar-inner .navbar-toggler-icon {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  color: white;
-}
-
-#header .navbar-inner .hover {
-  background-color: black;
-}
-
-.banner .carousel-indicators .active {
-  background-color: transparent;
-  width: 100%;
-}
-
-.banner .line-banner {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 4rem;
-  height: 0.1rem;
+body {
   background-color: white;
 }
 
-@media screen and (max-width: 425px) {
-  .banner .line-banner {
-    margin-top: -0.5rem;
-  }
-}
-
-.banner .row {
-  width: 100%;
-}
-
-.banner .row .number {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
+.header .nav-black {
+  background-color: #242323;
   color: white;
-}
-
-@media screen and (max-width: 425px) {
-  .banner .row .number {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .banner .row .number {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .banner .row .number {
-    font-size: 0.7rem;
-  }
-}
-
-.banner .row .text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  color: white;
-}
-
-@media screen and (max-width: 425px) {
-  .banner .row .text {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .banner .row .text {
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .banner .row .text {
-    font-size: 0.5rem;
-  }
-}
-
-.banner .row .li-banner {
-  width: auto;
-}
-
-.banner .carousel-caption {
-  top: 150;
-  margin-left: 5rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .banner .carousel-caption {
-    top: 100;
-    margin-left: 5rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner .carousel-caption {
-    top: 70;
-    margin-left: 5rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .banner .carousel-caption {
-    top: 40;
-    margin-left: 5rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .banner .carousel-caption {
-    top: 35;
-    margin-left: 5rem;
-  }
-}
-
-.banner h1 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 9rem;
-  color: white;
-}
-
-@media screen and (max-width: 1024px) {
-  .banner h1 {
-    font-size: 6rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner h1 {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .banner h1 {
-    font-size: 2rem;
-    padding-top: -2rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .banner h1 {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .banner h1 {
-    font-size: 1.3rem;
-  }
-}
-
-.banner p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 7rem;
-  color: white;
-}
-
-@media screen and (max-width: 1024px) {
-  .banner p {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner p {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .banner p {
-    font-size: 1rem;
-    padding-top: -2rem;
-    padding-bottom: -2rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .banner p {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .banner p {
-    font-size: 1rem;
-  }
-}
-
-.banner #btn-learn-more {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .banner #btn-learn-more {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner #btn-learn-more {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .banner #btn-learn-more {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .banner #btn-learn-more {
-    font-size: 0.8rem;
-    margin-top: -0.5rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .banner #btn-learn-more {
-    font-size: 0.5rem;
-    margin-top: -1rem;
-  }
-}
-
-.group-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
   text-align: center;
 }
 
-.group-title .first-text {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 2rem;
-  color: #37393a;
-  margin-top: 5rem;
-  margin-bottom: 0.2rem;
-}
-
-.group-title .second-text {
-  font-family: 'Montserrat', sans-serif;
+.header h1 {
+  font-family: 'Jua', sans-serif;
+  text-align: center;
   font-size: 4rem;
-  color: #37393a;
-  font-variant: small-caps;
-  font-weight: bold;
-  margin-bottom: 2rem;
 }
 
-.group-title .line-about {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 4rem;
-  height: 0.2rem;
-  background-color: #f38181;
-  margin-bottom: 4rem;
-}
-
-.group-title .description {
-  margin-bottom: 6rem;
-}
-
-.group-title .description p {
-  text-align: center;
-}
-
-.about {
-  background-color: white;
-}
-
-.about .image-about {
-  padding-bottom: 4rem;
-}
-
-.about .fact {
-  background-color: #95e1d3;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.about .fact .col-lg,
-.about .fact .col-xl {
-  border-left-style: solid;
-  border-right-style: solid;
-  border-left-width: 0.1rem;
-  border-right-width: 0.1rem;
-  padding-top: 1rem;
-}
-
-.about .fact .col-md {
-  border-left-style: solid;
-  border-right-style: solid;
-  border-left-width: 0.1rem;
-  border-right-width: 0.1rem;
-}
-
-.about .fact .num {
-  font-weight: bold;
-  font-size: 5rem;
-  text-align: center;
-}
-
-.about .fact .type {
+.header a {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1.5rem;
-  font-variant: small-caps;
-  text-align: center;
+  color: #242323;
 }
 
-.image-hover {
-  margin-bottom: 6rem;
-}
-
-.blog-relative {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.blog-relative .blog-hover-color {
-  display: none;
-}
-
-.blog-relative:hover .blog-hover-color {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#e4837e), to(#edd083));
-  background: linear-gradient(#e4837e, #edd083);
-  opacity: 0.8;
-  top: 0;
-}
-
-.blog-relative:hover .blog-hover-color p {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 3rem;
-  margin-top: 9rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .blog-relative:hover .blog-hover-color p {
-    margin-top: 7rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .blog-relative:hover .blog-hover-color p {
-    margin-top: 5rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .blog-relative:hover .blog-hover-color p {
-    margin-top: 11rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .blog-relative:hover .blog-hover-color p {
-    margin-top: 9rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .blog-relative:hover .blog-hover-color p {
-    margin-top: 8rem;
-  }
-}
-
-.blog-relative:hover .blog-hover-color .row {
-  margin-top: 18rem;
-  margin-left: 6rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .blog-relative:hover .blog-hover-color .row {
-    margin-left: 3.5rem;
-    margin-top: 15rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .blog-relative:hover .blog-hover-color .row {
-    margin-left: 2.5rem;
-    margin-top: 11rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .blog-relative:hover .blog-hover-color .row {
-    margin-left: 8rem;
-    margin-top: 20rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .blog-relative:hover .blog-hover-color .row {
-    margin-left: 6rem;
-    margin-top: 20rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .blog-relative:hover .blog-hover-color .row {
-    margin-left: 3.5rem;
-    margin-top: 15rem;
-  }
-}
-
-@media screen and (width: 768px) {
-  .blog-relative:hover .blog-hover-color .row img {
-    width: 4rem;
-  }
-}
-
-.service {
-  background-color: white;
-  padding-bottom: 4rem;
-}
-
-.service .line-service {
-  width: auto;
-  background-color: #e5e5e5;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.service .detail .pic {
-  float: right;
-}
-
-.service .detail h3 {
-  color: #1b1b1b;
-  font-family: 'Montserrat', sans-serif;
-  font-variant: small-caps;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.service .detail p {
-  color: #8d8d8d;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.design {
-  background-image: url("/../images/design/bg.jpg");
-  background-size: cover;
-  background-repeat: repeat-x;
-  width: 100%;
-  height: 100%;
+.header .col {
   position: relative;
 }
 
-.design .d-block {
-  margin-right: auto;
-  margin-left: auto;
-  height: 70%;
+.header .img-fluid {
+  bottom: 7px;
+  right: 20px;
+  position: absolute;
 }
 
-.design .items-device {
+.home h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.5rem;
+  color: #242323;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
+  color: #242323;
+  text-align: center;
+}
+
+.home .pic {
+  width: 350px;
+  height: 350px;
+}
+
+.home #arrow-back {
+  display: inline;
   position: absolute;
-  width: 100%;
   bottom: 0;
+  left: -7rem;
+  top: calc(50% - 20px);
 }
 
-.servicr2 {
-  background-color: white;
-  margin-top: -2rem;
+.home #arrow-next {
+  display: inline;
+  position: absolute;
+  top: calc(50% - 20px);
+  right: -6rem;
 }
 
-.servicr2 .detail-service {
-  padding-bottom: 4rem;
+.home :focus {
+  outline: none;
 }
 
-.servicr2 .btn {
-  color: #37393a;
-  font-family: 'Montserrat', sans-serif;
-  font-variant: small-caps;
+.home .btn {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1.5rem;
+  color: #242323;
+  border: 1px solid;
+}
+
+.shop h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.5rem;
+  color: #242323;
+  text-align: center;
   font-weight: bold;
+}
+
+.shop .img-fluid {
+  max-width: 100%;
+  height: 350px;
+}
+
+.shop p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  color: #242323;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.5rem;
+  color: #242323;
+  font-weight: bold;
+}
+
+.contact h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
+  color: #242323;
+}
+
+.contact p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.4rem;
+  color: #242323;
+}
+
+.contact a {
   text-decoration: none;
 }
 
-.servicr2 .box {
-  position: relative;
-  width: 100%;
-}
-
-.servicr2 #arrow-up1,
-.servicr2 #arrow-up2,
-.servicr2 #arrow-up3,
-.servicr2 #arrow-down1,
-.servicr2 #arrow-down2,
-.servicr2 #arrow-down3 {
-  position: absolute;
-  right: 0;
-  top: 12;
-}
-
-.servicr2 .card-header {
-  background-color: transparent;
-}
-
-.servicr2 .card {
-  margin-bottom: 1rem;
-}
-
-.quote {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.quote .line-about {
-  width: 4rem;
-  height: 0.2rem;
-  background-color: #f38181;
-  float: left;
-  margin-right: 1rem;
-  margin-top: 0.7rem;
-}
-
-.quote p {
-  color: #37393a;
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-  font-size: 1.5rem;
-}
-
-.quote .img-fluid {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #95e1d3;
-  padding: 4rem;
-}
-
-.quote #box-pic {
+.footer h1 {
+  font-family: 'Jua', sans-serif;
+  font-size: 2.4rem;
+  color: #242323;
   text-align: center;
 }
 
-.quote .name {
-  color: #37393a;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 1.5rem;
-}
-
-.bg-gray {
-  background-color: #f8f8f8;
-  width: auto;
-  height: auto;
-  padding: 4rem;
-}
-
-.team {
-  background-color: white;
-}
-
-.team .name-team {
+.footer p {
+  font-family: 'Titillium Web', sans-serif;
   text-align: center;
-  color: #37393a;
-  font-family: 'Montserrat', sans-serif;
-  font-variant: small-caps;
-  font-size: 2rem;
-  font-weight: bold;
-  padding-top: 2rem;
-}
-
-.team .position-team {
-  text-align: center;
-  color: #37393a;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3rem;
-}
-
-.team .group-title {
-  padding-top: 2rem;
-}
-
-.work {
-  background-color: white;
-  /* Position the image container (needed to position the left and right arrows) */
-  /* Hide the images by default */
-  /* Add a pointer when hovering over the thumbnail images */
-  /* Next & previous buttons */
-  /* Position the "next button" to the right */
-  /* On hover, add a black background color with a little bit see-through */
-  /* Number text (1/3 etc) */
-  /* Container for image text */
-  /* Six columns side by side */
-  /* Add a transparency effect for thumnbail images */
-}
-
-.work img {
-  vertical-align: middle;
-}
-
-.work .container {
-  position: relative;
-}
-
-.work .mySlides {
-  display: none;
-}
-
-.work .mySlides .circle {
-  /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
-  height: auto;
-  /* ความสูงปรับให้เป็นออโต้ */
-  width: auto;
-  /* ความสูงปรับให้เป็นออโต้ */
-  border: 3px solid #fff;
-  /* เส้นขอบขนาด 3px solid: เส้น #fff:โค้ดสีขาว */
-  border-radius: 50%;
-  /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  /* เงาของรูป */
-}
-
-.work .cursor {
-  cursor: pointer;
-}
-
-.work .prev,
-.work .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-}
-
-.work .next {
-  right: 20;
-  border-radius: 3px 0 0 3px;
-}
-
-.work .prev:hover,
-.work .next:hover {
-  background-color: transparent;
-}
-
-.work .numbertext {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.work .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.work .column {
-  float: left;
-  width: 16.66%;
-}
-
-.work .demo {
-  opacity: 0.6;
-}
-
-.work .active,
-.work .demo:hover {
-  opacity: 1;
-}
-
-.work .quote2 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.work .quote2 .line-about {
-  width: 4rem;
-  height: 0.2rem;
-  background-color: #f38181;
-  float: left;
-  margin-right: 1rem;
-  margin-top: 0.7rem;
-}
-
-.work .quote2 p {
-  color: #37393a;
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-  font-size: 1.5rem;
-}
-
-.work .quote2 .circle {
-  text-align: center;
-  height: auto;
-  width: auto;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
-  padding-top: -6rem;
-}
-
-.work .quote2 .name {
-  color: #37393a;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 1.5rem;
-}
-
-.work .bg-white {
-  background-color: white;
-  width: auto;
-  height: auto;
-  padding: 4rem;
-}
-
-.people {
-  background-image: url("/../images/people/bg.jpg");
-  background-size: cover;
-  background-repeat: repeat-x;
-  width: 100%;
-  height: auto;
-  font-family: 'Montserrat', sans-serif;
-  color: #37393a;
-}
-
-.people .blog-small {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.people .line-people {
-  width: 6rem;
-  height: 0.2rem;
-  background-color: #f38181;
-  margin-bottom: 2rem;
-  float: left;
-}
-
-.people .detail {
-  float: left;
-}
-
-.people h3 {
-  font-variant: small-caps;
-  font-size: 1.7rem;
-  font-weight: bold;
-}
-
-.blog {
-  background-color: white;
-  font-family: 'Montserrat', sans-serif;
-  color: #37393a;
-}
-
-.blog .picture {
-  position: relative;
-}
-
-.blog .blue-box {
-  background-color: #95e1d3;
-  position: relative;
-  width: 4rem;
-  height: 5rem;
-  bottom: 6rem;
-  right: 1rem;
-}
-
-.blog .blue-box .text {
-  padding: 0.3rem;
-  color: white;
-  text-align: center;
-}
-
-.blog .blue-box .text h3 {
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.blog .blue-box .text p {
-  font-style: italic;
-}
-
-.blog .detail-pic {
-  margin-top: -2rem;
-  margin-bottom: 1rem;
-}
-
-.blog .detail-pic h5 {
-  font-variant: small-caps;
-  font-size: 1.7rem;
-  font-weight: bold;
-}
-
-.blog .detail-blog img {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-
-.blog .map {
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 2rem;
-  margin-top: 4rem;
-  background-image: url("/../images/blog/bg.jpg");
-  width: auto;
-}
-
-.blog .map #map {
-  margin-bottom: 2rem;
-}
-
-.blog .map h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: #f38181;
-  margin-top: 1rem;
-  font-weight: bold;
-}
-
-.blog .map a {
-  text-decoration: none;
-}
-
-.blog .map .line-map {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 4rem;
-  height: 0.2rem;
-  background-color: #f38181;
-  margin-bottom: 3rem;
-}
-
-.blog .map #demo2 {
-  color: #dbdbdb;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  margin-top: 1rem;
-}
-
-.blog .map #show_demo {
-  width: auto;
-  height: auto;
-  display: none;
-  padding: 5px;
-  overflow: hidden;
-}
-
-#footer {
-  background-color: #f1f1f1;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 4rem;
-}
-
-#footer .socials {
-  margin-left: 1rem;
-}
-
-#footer .socials h6 {
-  margin-top: 0.3rem;
-  margin-right: 1rem;
-}
-
-#footer .socialhover {
-  margin-left: 0.3rem;
-}
-
-#footer .input-group {
-  margin-top: 2rem;
-}
-
-#footer .ig {
-  margin-top: 1rem;
-}
-
-#footer .btn {
-  background-color: #95e1d3;
-  color: white;
-  border: 1px solid #ced4da;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding: 1rem;
-}
-
-#footer .footer-inner h1 {
-  color: #999999;
-  font-weight: bold;
-  margin-top: 2rem;
-}
-
-#footer .footer-inner p {
-  color: #999999;
-}
-
-#footer .footer-inner h3 {
-  color: #131313;
-  font-weight: bold;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#footer .footer-inner h5 {
-  color: #131313;
-  font-weight: bold;
-}
-
-#footer .footer-inner h6 {
-  color: #999999;
-  font-style: italic;
-  padding-left: 0.5rem;
-}
-
-#footer .footer-inner h4 {
-  color: #131313;
   font-size: 1.2rem;
-  font-variant: small-caps;
 }
 
-#footer .footer-inner a {
-  text-decoration: none;
+.footer .list-unstyled li {
+  display: inline-block;
 }
 
-#footer .footer-inner .form-control {
+.footer .input-group {
+  font-family: 'Titillium Web', sans-serif;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .input-group .form-control,
+.footer .input-group .input-group-append {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: none;
+}
+
+.footer a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  color: #242323;
+  text-decoration: none;
 }
 
 .navbar-laravel {

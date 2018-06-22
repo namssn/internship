@@ -7,13 +7,13 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link" href="#about" >ABOUT</a>
-				<a class="nav-item nav-link" href="#service">SERVICE</a>
-				<a class="nav-item nav-link" href="#work">WORK</a>
-				<a class="nav-item nav-link" href="#blog">BLOG</a>
-				<a class="nav-item nav-link" href="#footer">CONTACT</a>
-				<a class="nav-item nav-link" href="javascript:void(0)"> <img src="{{asset('images/nav/cart.png')}}" alt="cart"> </a>
-				<a class="nav-item nav-link" href="javascript:void(0)"> <img src="{{asset('images/nav/search.png')}}" alt="search"> </a>
+					<a class="nav-about nav-item nav-link" href="#about" >ABOUT</a>
+					<a class="nav-service nav-item nav-link" href="#service">SERVICE</a>
+					<a class="nav-work nav-item nav-link" href="#work">WORK</a>
+					<a class="nav-blog nav-item nav-link" href="#blog">BLOG</a>
+					<a class="nav-contact nav-item nav-link" href="#footer">CONTACT</a>
+					<a class="nav-item nav-link" href="javascript:void(0)"> <img src="{{asset('images/nav/cart.png')}}" alt="cart"> </a>
+					<a class="nav-item nav-link" href="javascript:void(0)"> <img src="{{asset('images/nav/search.png')}}" alt="search"> </a>
 				</div>
 			</div>
 		</nav>

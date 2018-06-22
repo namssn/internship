@@ -56,6 +56,7 @@
             width: auto;
         } 
     }
+    
 
 .carousel-caption{
     top: 150;
@@ -386,7 +387,7 @@ p{
         width:100%; 
     }
 
-    .arrow{
+    #arrow-up1,#arrow-up2, #arrow-up3,#arrow-down1,#arrow-down2,#arrow-down3{
         position: absolute;
         right: 0;
         top: 12;
@@ -479,24 +480,31 @@ p{
         vertical-align: middle;
       }
       
-      /* Position the image container (needed to position the left and right arrows) */
-      .container {
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
         position: relative;
-      }
-      
-      /* Hide the images by default */
-      .mySlides {
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
         display: none;
-      }
-      
-      /* Add a pointer when hovering over the thumbnail images */
-      .cursor {
+        .circle{ /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
+            height: auto;  /* ความสูงปรับให้เป็นออโต้ */
+            width: auto;  /* ความสูงปรับให้เป็นออโต้ */
+            border: 3px solid #fff; /* เส้นขอบขนาด 3px solid: เส้น #fff:โค้ดสีขาว */
+            border-radius: 50%; /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* เงาของรูป */
+        }
+    }
+    
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
         cursor: pointer;
-      }
-      
-      /* Next & previous buttons */
-      .prev,
-      .next {
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
         cursor: pointer;
         position: absolute;
         top: 40%;
@@ -509,22 +517,22 @@ p{
         border-radius: 0 3px 3px 0;
         user-select: none;
         -webkit-user-select: none;
-      }
-      
-      /* Position the "next button" to the right */
-      .next {
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
         right: 20;
         border-radius: 3px 0 0 3px;
-      }
-      
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover,
-      .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-      
-      /* Number text (1/3 etc) */
-      .numbertext {
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: transparent;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5rem;
         font-weight:bold;
@@ -533,45 +541,31 @@ p{
         padding: 8px 12px;
         position: absolute;
         top: 0;
-      }
-      
-      /* Container for image text */
-      .caption-container {
-        text-align: center;
-        background-color: #222;
-        padding: 2px 16px;
-        color: white;
-        margin-bottom: 2rem;
-      }
-
-      #caption{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.5rem;
-      }
-      
-      .row:after {
+    }
+    
+    /* Container for image text */
+    
+    .row:after {
         content: "";
         display: table;
         clear: both;
-      }
-      
-      /* Six columns side by side */
-      .column {
+    }
+    
+    /* Six columns side by side */
+    .column {
         float: left;
         width: 16.66%;
-      }
-      
-      /* Add a transparency effect for thumnbail images */
-      .demo {
+    }
+    
+    /* Add a transparency effect for thumnbail images */
+    .demo {
         opacity: 0.6;
-      }
-      
-      .active,
-      .demo:hover {
+    }
+    
+    .active,
+    .demo:hover {
         opacity: 1;
-      }
+    }
 
     .quote2{
         align-items: center;

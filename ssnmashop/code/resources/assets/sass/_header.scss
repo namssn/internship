@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+}
+
+.header{
+    .nav-black{
+        background-color: rgb(36, 35, 35);
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h1{
+        font-family: 'Jua', sans-serif;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    a{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 1.5rem;
+        color: rgb(36, 35, 35);
+    }
+
+    .col{
+        position: relative;
+    }
+
+    .img-fluid{
+        bottom: 7px;
+        right: 20px;
+        position: absolute;
+    }
+    
+
+}

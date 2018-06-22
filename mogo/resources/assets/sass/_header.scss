@@ -14,26 +14,19 @@
             color:white;
             margin-right: 2rem;
         }
-        
-        .nav-item::after {
-            display: block;
-            width: 0;
-            height: 2px;
-            background: rgb(235, 245, 151);
-            transition: width .3s;
-            color: rgb(235, 245, 151);
-        }
-        
-        .nav-item:hover::after {
-            width: 100%;
-        }
 
- 
         .navbar-toggler-icon{
             font-family: 'Montserrat', sans-serif;
             font-size: 1rem;
             color:white;
         }
+
+        .hover {
+            background-color: black;
+        }
+
+        
+
      
 
         

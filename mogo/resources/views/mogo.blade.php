@@ -2,7 +2,7 @@
 <section class="banner" id="home">
 
     <div id="slide-banner" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        {{-- <ol class="carousel-indicators">
             <div class="row">
                 <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                     <li class="li-banner" data-target="#slide-banner" data-slide-to="0" class="active"></li>
@@ -26,29 +26,29 @@
                     <span class="text">CONTACTS</span>
                 </div>
             </div>
-        </ol>
+        </ol> --}}
+
+
 
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <h1>Creative Template</h1>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>WECOME</p>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>MOGO</p>
-                                        </div>
-                                        <hr class="line-banner"></hr>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
-                                            <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
-                                        </div>
+                            <div class="carousel-caption">                             
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <h1>Creative Template</h1>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>WECOME</p>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>MOGO</p>
+                                    </div>
+                                    <hr class="line-banner"></hr>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
+                                        <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
                                     </div>
                                 </div>
                             </div>
@@ -59,25 +59,23 @@
             </div>
 
             <div class="carousel-item">
-                <div class="container ">
+                <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <h1>Creative Template</h1>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>WECOME</p>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>MOGO</p>
-                                        </div>
-                                        <hr class="line-banner"></hr>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
-                                            <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <h1>Creative Template</h1>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>WECOME</p>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>MOGO</p>
+                                    </div>
+                                    <hr class="line-banner"></hr>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
+                                        <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
                                     </div>
                                 </div>
                             </div>
@@ -88,25 +86,23 @@
             </div>
 
             <div class="carousel-item">
-                <div class="container ">
+                <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <h1>Creative Template</h1>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>WECOME</p>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>MOGO</p>
-                                        </div>
-                                        <hr class="line-banner"></hr>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
-                                            <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <h1>Creative Template</h1>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>WECOME</p>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>MOGO</p>
+                                    </div>
+                                    <hr class="line-banner"></hr>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
+                                        <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
                                     </div>
                                 </div>
                             </div>
@@ -117,25 +113,23 @@
             </div>
 
             <div class="carousel-item">
-                <div class="container ">
+                <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <h1>Creative Template</h1>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                            <p>WECOME</p>
-                                        </div>
-                                        <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-                                            <p>MOGO</p>
-                                        </div>
-                                        <hr class="line-banner"></hr>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
-                                            <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <h1>Creative Template</h1>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <p>WECOME</p>
+                                    </div>
+                                    <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+                                        <p>MOGO</p>
+                                    </div>
+                                    <hr class="line-banner"></hr>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2">
+                                        <button type="button" id="btn-learn-more" class="btn btn-outline-light">LEARN MORE</button>
                                     </div>
                                 </div>
                             </div>
@@ -440,16 +434,17 @@
                                     <h5 class="mb-2">
                                         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             <img class="img-fluid" src="{{asset('images/service2/picture.png')}}" alt="picture">photography
-                                            <div class="arrow">
-                                                <a href="javascript:void(0)" onclick="myFunction2()">
-                                                    <img class="img-fluid" src="{{asset('images/service2/arrow.png')}}" alt="arrow">
-                                                </a>
-
-
-                                                <div id="arrow2" style="display:none">
-                                                    <img class="img-fluid" src="{{asset('images/service2/arrow2.png')}}" alt="arrow">
+                                                <div id="arrow-up1">
+                                                    <a href="javascript:void(0)" onclick="myFunction2()">
+                                                        <img class="img-fluid" src="{{asset('images/service2/arrow2.png')}}" alt="arrow">
+                                                    </a>
+                                                </button>
+    
+                                                <div id="arrow-down1" style="display:none">
+                                                    <a href="javascript:void(0)" onclick="myFunction2()">
+                                                        <img class="img-fluid" src="{{asset('images/service2/arrow.png')}}" alt="arrow">
+                                                    </a>
                                                 </div>
-
                                             </div>
                                         </button>
                                     </h5>
@@ -473,8 +468,16 @@
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             <img class="img-fluid" src="{{asset('images/service2/creative.png')}}" alt="creative"> creativity
-                                            <div class="arrow">
-                                                <img class="img-fluid" src="{{asset('images/service2/arrow.png')}}" alt="arrow">
+                                            <div id="arrow-up2">
+                                                <a href="javascript:void(0)" onclick="myFunction3()">
+                                                    <img class="img-fluid" src="{{asset('images/service2/arrow.png')}}" alt="arrow">
+                                                </a>
+                                            </button>
+
+                                            <div id="arrow-down2" style="display:none">
+                                                <a href="javascript:void(0)" onclick="myFunction3()">
+                                                    <img class="img-fluid" src="{{asset('images/service2/arrow2.png')}}" alt="arrow">
+                                                </a>
                                             </div>
                                         </button>
                                     </h5>
@@ -497,8 +500,16 @@
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <img class="img-fluid" src="{{asset('images/service2/web.png')}}" alt="web">web design
-                                            <div class="arrow">
-                                                <img class="img-fluid" src="{{asset('images/service2/arrow.png')}}" alt="arrow">
+                                            <div id="arrow-up3">
+                                                <a href="javascript:void(0)" onclick="myFunction4()">
+                                                    <img class="img-fluid" src="{{asset('images/service2/arrow.png')}}" alt="arrow">
+                                                </a>
+                                            </button>
+
+                                            <div id="arrow-down3" style="display:none">
+                                                <a href="javascript:void(0)" onclick="myFunction4()">
+                                                    <img class="img-fluid" src="{{asset('images/service2/arrow2.png')}}" alt="arrow">
+                                                </a>
                                             </div>
                                         </button>
                                     </h5>
@@ -787,40 +798,36 @@
     <div class="container">
         <div class="mySlides">
             <div class="numbertext">1 / 6</div>
-            <img src="{{asset('images/work/spider.jpg')}}" style="width:100%;height: 800px;">
+            <img class="circle" src="{{asset('images/work/spider.jpg')}}" style="width:100%;height: 800px;">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">2 / 6</div>
-            <img src="{{asset('images/work/bridge.jpg')}}" style="width:100%;height: 800px;">
+            <img class="circle" src="{{asset('images/work/bridge.jpg')}}" style="width:100%;height: 800px;">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">3 / 6</div>
-            <img src="{{asset('images/work/jellyfish.jpg')}}" style="width:100%;height: 800px;">
+            <img class="circle" src="{{asset('images/work/jellyfish.jpg')}}" style="width:100%;height: 800px;">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">4 / 6</div>
-            <img src="{{asset('images/work/man.jpg')}}" style="width:100%;height: 800px;">
+            <img class="circle" src="{{asset('images/work/man.jpg')}}" style="width:100%;height: 800px;">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">5 / 6</div>
-            <img src="{{asset('images/work/orange.jpg')}}" style="width:100%;height: 800px;">
+            <img class="circle" src="{{asset('images/work/orange.jpg')}}" style="width:100%;height: 800px;">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">6 / 6</div>
-            <img src="{{asset('images/work/red.jpg')}}" style="width:100%;height: 800px;">
+            <img class="circle" src="{{asset('images/work/red.jpg')}}" style="width:100%;height: 800px;">
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
-
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
 
         <div class="row">
             <div class="column">
@@ -838,34 +845,33 @@
             <div class="column">
                 <img class="demo cursor" src="{{asset( 'images/work/orange.jpg')}}" style="width:100%;height: 150px;" onclick="currentSlide(5)" alt="Orange">
             </div>    
-            <div class="column ">
+            <div class="column">
                 <img class="demo cursor " src="{{asset( 'images/work/red.jpg')}} " style="width:100%;height: 150px;" onclick="currentSlide(6)" alt="Red">
             </div>
         </div>
     </div>
 
-    <div id="slide-qoute2 " class="carousel slide " data-ride="carousel ">
-        <div class="carousel-inner ">
-            <div class="carousel-item active ">
-                <div class="bg-white ">
-                    <div class="container ">
-                        <div class="row ">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-                                <div class="quote2 ">
-                                    <div class="row ">
-                                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
-                                            <img class="circle img-fluid " src="{{asset( 'images/work/back.png')}}
-                    " alt="back ">
+    <div id="slide-qoute2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="quote2">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                            <img class="circle img-fluid" src="{{asset( 'images/work/back.png')}}" alt="back ">
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-4 ">
+                                        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-4">
                                             <p>
                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                 Ut enim ad minim veniam, quis nostrud exercitation.”
                                             </p>
 
-                                            <hr class="line-about "></hr>
+                                            <hr class="line-about"></hr>
 
-                                            <div class="name ">Jon Doe</div>
+                                            <div class="name">Jon Doe</div>
                                         </div>
                                     </div>
 
@@ -876,24 +882,23 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
-                <div class="bg-white ">
-                    <div class="container ">
-                        <div class="row ">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-                                <div class="quote2 ">
-                                    <div class="row ">
-                                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
-                                            <img class="circle img-fluid " src="{{asset( 'images/work/back.png')}}
-                    " alt="back ">
+            <div class="carousel-item">
+                <div class="bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="quote2">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                            <img class="circle img-fluid" src="{{asset( 'images/work/back.png')}}" alt="back">
                                         </div>
-                                        <div id="text " class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-4 ">
+                                        <div id="text " class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-4">
                                             <p>
                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                 Ut enim ad minim veniam, quis nostrud exercitation.”
                                             </p>
-                                            <hr class="line-about "></hr>
-                                            <div class="name ">Jon Doe</div>
+                                            <hr class="line-about"></hr>
+                                            <div class="name">Jon Doe</div>
                                         </div>
                                     </div>
                                 </div>
@@ -902,23 +907,23 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item ">
-                <div class="bg-white ">
-                    <div class="container ">
-                        <div class="row ">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-                                <div class="quote2 ">
-                                    <div class="row ">
-                                        <div class="col-12 col-sm-11 col-md-3 col-lg-3 col-xl-3 ">
-                                            <img class="circle img-fluid " src="{{asset( 'images/work/back.png')}}" alt="back ">
+            <div class="carousel-item">
+                <div class="bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="quote2">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+                                            <img class="circle img-fluid" src="{{asset( 'images/work/back.png')}}" alt="back">
                                         </div>
-                                        <div id="text " class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-4 ">
+                                        <div id="text" class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-4">
                                             <p>
                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                 Ut enim ad minim veniam, quis nostrud exercitation.”
                                             </p>
-                                            <hr class="line-about "></hr>
-                                            <div class="name ">Jon Doe</div>
+                                            <hr class="line-about"></hr>
+                                            <div class="name">Jon Doe</div>
                                         </div>
                                     </div>
                                 </div>
@@ -928,43 +933,43 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev " href="#slide-qoute2 " role="button " data-slide="prev ">
+        <a class="carousel-control-prev" href="#slide-qoute2" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon " aria-hidden="true "></span>
             <span class="sr-only ">Previous</span>
         </a>
-        <a class="carousel-control-next " href="#slide-qoute2 " role="button " data-slide="next ">
-            <span class="carousel-control-next-icon " aria-hidden="true "></span>
-            <span class="sr-only ">Next</span>
+        <a class="carousel-control-next" href="#slide-qoute2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
         </a>
     </div>
 </section>
 
-<section class="people " id="people ">
-    <div class="container ">
-        <div class="row ">
-            <div class="col ">
-                <div class="group-title ">
-                    <div class="col-12 ">
-                        <h3 class="first-text ">
+<section class="people" id="people">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="group-title">
+                    <div class="col-12">
+                        <h3 class="first-text">
                             for all devices
                         </h3>
-                        <h1 class="second-text ">
+                        <h1 class="second-text">
                             unique design
                         </h1>
-                        <hr class="line-about "></hr>
+                        <hr class="line-about"></hr>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row ">
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="blog-small ">
-                    <div class="row ">
-                        <div class="col ">
-                            <img class="img-fluid " src="{{asset( 'images/people/people1.png')}} " alt="speech ">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset( 'images/people/people1.png')}}" alt="speech">
                         </div>
-                        <div class="col-8 ">
+                        <div class="col-8">
                             <h3>
                                 matthew dix
                             </h3>
@@ -972,11 +977,11 @@
                                 Graphic Design
                             </h5>
 
-                            <hr class="line-people "></hr>
+                            <hr class="line-people"></hr>
 
-                            <div class="detail ">
-                                <div class="row ">
-                                    <div class="col ">
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
                                         <p>
                                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                             Ut enim ad minim veniam, quis nostrud exercitation.”
@@ -989,13 +994,13 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="blog-small ">
-                    <div class="row ">
-                        <div class="col ">
-                            <img class="img-fluid " src="{{asset( 'images/people/people2.png')}} " alt="speech ">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset( 'images/people/people2.png')}}" alt="speech">
                         </div>
-                        <div class="col-8 ">
+                        <div class="col-8">
                             <h3>
                                 nick karvounis
                             </h3>
@@ -1003,11 +1008,11 @@
                                 Graphic Design
                             </h5>
 
-                            <hr class="line-people "></hr>
+                            <hr class="line-people"></hr>
 
-                            <div class="detail ">
-                                <div class="row ">
-                                    <div class="col ">
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
                                         <p>
                                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                             Ut enim ad minim veniam, quis nostrud exercitation.”
@@ -1020,15 +1025,15 @@
                 </div>
             </div>
 
-            <div class="w-100 "></div>
+            <div class="w-100"></div>
 
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="blog-small ">
-                    <div class="row ">
-                        <div class="col ">
-                            <img class="img-fluid " src="{{asset( 'images/people/people3.png')}} " alt="speech ">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset( 'images/people/people3.png')}} " alt="speech ">
                         </div>
-                        <div class="col-8 ">
+                        <div class="col-8">
                             <h3>
                                 jaelynn castillo
                             </h3>
@@ -1036,11 +1041,11 @@
                                 Graphic Design
                             </h5>
 
-                            <hr class="line-people "></hr>
+                            <hr class="line-people"></hr>
 
-                            <div class="detail ">
-                                <div class="row ">
-                                    <div class="col ">
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
                                         <p>
                                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                             Ut enim ad minim veniam, quis nostrud exercitation.”
@@ -1053,13 +1058,13 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="blog-small ">
-                    <div class="row ">
-                        <div class="col ">
-                            <img class="img-fluid " src="{{asset( 'images/people/people4.png')}} " alt="speech ">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="blog-small">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{asset( 'images/people/people4.png')}}" alt="speech">
                         </div>
-                        <div class="col-8 ">
+                        <div class="col-8">
                             <h3>
                                 mike petrucci
                             </h3>
@@ -1067,11 +1072,11 @@
                                 Graphic Design
                             </h5>
 
-                            <hr class="line-people "></hr>
+                            <hr class="line-people"></hr>
 
-                            <div class="detail ">
-                                <div class="row ">
-                                    <div class="col ">
+                            <div class="detail">
+                                <div class="row">
+                                    <div class="col">
                                         <p>
                                             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod quis nostrud exercitation.”
                                         </p>
@@ -1088,102 +1093,102 @@
     </div>
 </section>
 
-<section class="blog " id="blog ">
-    <div class="container ">
-        <div class="row ">
-            <div class="col ">
-                <div class="group-title ">
-                    <div class="col-12 ">
-                        <h3 class="first-text ">
+<section class="blog" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="group-title">
+                    <div class="col-12">
+                        <h3 class="first-text">
                             Our stories
 
                         </h3>
-                        <h1 class="second-text ">
+                        <h1 class="second-text">
                             latest blog
 
                         </h1>
-                        <hr class="line-about "></hr>
+                        <hr class="line-about"></hr>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row ">
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="picture ">
-                    <a href="javascript:void(0) ">
-                        <img src="{{asset( 'images/blog/women.jpg')}} " alt="women " class="img-fluid ">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="picture">
+                    <a href="javascript:void(0)">
+                        <img src="{{asset('images/blog/women.jpg')}}" alt="women" class="img-fluid">
                     </a>
                 </div>
-                <div class="blue-box ">
-                    <div class="text ">
+                <div class="blue-box">
+                    <div class="text">
                         <h3>15</h3>
                         <p>Jan</p>
                     </div>
                 </div>
-                <div class="detail-pic ">
+                <div class="detail-pic">
                     <h5>lorem ipsum dolor sit amet</h5>
                     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <hr></hr>
-                    <div class="detail-blog ">
-                        <div class="row ">
-                            <img src="{{asset( 'images/blog/view.png')}} " alt="view " class="img-fluid ">
+                    <div class="detail-blog">
+                        <div class="row">
+                            <img src="{{asset('images/blog/view.png')}}" alt="view" class="img-fluid">
                             <p>542</p>
-                            <img src="{{asset( 'images/blog/comment.png')}} " alt="comment " class="img-fluid ">
+                            <img src="{{asset('images/blog/comment.png')}}" alt="comment" class="img-fluid">
                             <p>17</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="picture ">
-                    <a href="javascript:void(0) ">
-                        <img src="{{asset( 'images/blog/com.jpg')}} " alt="com " class="img-fluid ">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="picture">
+                    <a href="javascript:void(0)">
+                        <img src="{{asset('images/blog/com.jpg')}}" alt="com" class="img-fluid">
                     </a>
                 </div>
-                <div class="blue-box ">
-                    <div class="text ">
+                <div class="blue-box">
+                    <div class="text">
                         <h3>14</h3>
                         <p>Jan</p>
                     </div>
                 </div>
-                <div class="detail-pic ">
+                <div class="detail-pic">
                     <h5>lorem ipsum dolor sit amet</h5>
                     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <hr></hr>
-                    <div class="detail-blog ">
-                        <div class="row ">
-                            <img src="{{asset( 'images/blog/view.png')}} " alt="view " class="img-fluid ">
+                    <div class="detail-blog">
+                        <div class="row">
+                            <img src="{{asset('images/blog/view.png')}}" alt="view" class="img-fluid">
                             <p>992</p>
-                            <img src="{{asset( 'images/blog/comment.png')}} " alt="comment " class="img-fluid ">
+                            <img src="{{asset('images/blog/comment.png')}}" alt="comment" class="img-fluid">
                             <p>42</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md col-lg col-xl ">
-                <div class="picture ">
-                    <a href="javascript:void(0) ">
-                        <img src="{{asset( 'images/blog/ipad.jpg')}} " alt="ipad " class="img-fluid ">
+            <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                <div class="picture">
+                    <a href="javascript:void(0)">
+                        <img src="{{asset( 'images/blog/ipad.jpg')}}" alt="ipad" class="img-fluid">
                     </a>
                 </div>
-                <div class="blue-box ">
-                    <div class="text ">
+                <div class="blue-box">
+                    <div class="text">
                         <h3>12</h3>
                         <p>Jan</p>
                     </div>
                 </div>
-                <div class="detail-pic ">
+                <div class="detail-pic">
                     <h5>lorem ipsum dolor sit amet</h5>
                     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <hr></hr>
-                    <div class="detail-blog ">
-                        <div class="row ">
-                            <img src="{{asset( 'images/blog/view.png')}} " alt="view " class="img-fluid ">
+                    <div class="detail-blog">
+                        <div class="row">
+                            <img src="{{asset('images/blog/view.png')}}" alt="view" class="img-fluid">
                             <p>1560</p>
-                            <img src="{{asset( 'images/blog/comment.png')}} " alt="comment " class="img-fluid ">
+                            <img src="{{asset('images/blog/comment.png')}}" alt="comment" class="img-fluid">
                             <p>98</p>
                         </div>
                     </div>
@@ -1192,21 +1197,20 @@
         </div>
     </div>
 
-    <div class="map ">
-        <div class="container ">
-            <div class="row ">
-                <div class="col ">
+    <div class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col">
 
-                    <a href="javascript:void(0) " onclick="myFunction() ">
-                        <img src="{{asset( 'images/blog/map.png')}} " alt="map " class="img-fluid ">
+                    <a href="javascript:void(0)" onclick="myFunction()">
+                        <img src="{{asset( 'images/blog/map.png')}}" alt="map" class="img-fluid">
                         <h1>OPEN MAP</h1>
-                        <hr class="line-map "></hr>
+                        <hr class="line-map"></hr>
                     </a>
 
 
-                    <div id="map " style="display:none ">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.640737429422!2d100.55217541483024!3d13.740187590354896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d10aaebe6612135!2sPRANEAT+Co.%2C+Ltd.!5e0!3m2!1sen!2sth!4v1528864700897 "
-                            width="100% " height="500px " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                    <div id="map" style="display:none">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.640737429422!2d100.55217541483024!3d13.740187590354896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d10aaebe6612135!2sPRANEAT+Co.%2C+Ltd.!5e0!3m2!1sen!2sth!4v1528864700897 "width="100%" height="500px " frameborder="0 " style="border:0 " allowfullscreen></iframe>
                     </div>
 
                 </div>
@@ -1214,10 +1218,12 @@
         </div>
     </div>
 </section>
-@endsection @section('script')
-<script type="text/javascript ">  
+@endsection 
 
-    // SHOW-HIDE 
+@section('script')
+<script type="text/javascript">  
+
+    // SHOW-HIDE MAP
     function myFunction() {
         if (document.getElementById('map').style.display == 'none') {
             document.getElementById('map').style.display = ''
@@ -1225,24 +1231,54 @@
             document.getElementById('map').style.display = 'none'
         }
     }
-
-
-    // SHOW-HIDE-arrow 
+    // SHOW arrow-down -------  HIDE arrow-up Box1
     function myFunction2() {
-        if (document.getElementById('arrow2').style.display == 'none') {
-            document.getElementById('arrow2').style.display = ''
-        } else {
-            document.getElementById('arrow2').style.display = 'none'
-        }
+        if (document.getElementById('arrow-up1').style.display == '') {
+            document.getElementById('arrow-down1').style.display = ''
+            document.getElementById('arrow-up1').style.display = 'none'
+        } 
+        else if (document.getElementById('arrow-down1').style.display == '') {
+            document.getElementById('arrow-up1').style.display = ''
+            document.getElementById('arrow-down1').style.display = 'none'
+        } 
     }
+
+    // SHOW arrow-down -------  HIDE arrow-up Box2
+     function myFunction3() {
+        if (document.getElementById('arrow-up2').style.display == '') {
+            document.getElementById('arrow-down2').style.display = ''
+            document.getElementById('arrow-up2').style.display = 'none'
+        } 
+        else if (document.getElementById('arrow-down2').style.display == '') {
+            document.getElementById('arrow-up2').style.display = ''
+            document.getElementById('arrow-down2').style.display = 'none'
+        } 
+    }
+
+    // SHOW arrow-down -------  HIDE arrow-up Box3
+    function myFunction4() {
+        if (document.getElementById('arrow-up3').style.display == '') {
+            document.getElementById('arrow-down3').style.display = ''
+            document.getElementById('arrow-up3').style.display = 'none'
+        } 
+        else if (document.getElementById('arrow-down3').style.display == '') {
+            document.getElementById('arrow-up3').style.display = ''
+            document.getElementById('arrow-down3').style.display = 'none'
+        } 
+    }
+
+    
+
+
+
 
 
 
     // page scroll
-    $('a[href*="# "]')
+    $('a[href*="#"]')
         // Remove links that don't actually link to anything
-        .not('[href="# "]')
-        .not('[href="#0 "]')
+        .not('[href="#"]')
+        .not('[href="#0"]')
         .click(function (event) {
         // On-page links
         if (
@@ -1291,7 +1327,7 @@
         var i;
         var slides = document.getElementsByClassName("mySlides");
         var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
+        // var captionText = document.getElementById("caption");
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {
@@ -1302,8 +1338,97 @@
         }
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-            captionText.innerHTML = dots[slideIndex-1].alt;
+            // captionText.innerHTML = dots[slideIndex-1].alt;
         }
+
+        // nav bar hover
+        // $(".nav-item").hover(function(){
+        //     $(this).css("background-color", "pink");
+        // }, function(){
+        //     $(this).css("background-color", "black");
+        // });
+
+        // $(function(){
+        //     $('.nav-item').click(function() {
+        //         $('.nav-item').removeClass('hover');
+        // }
+
+        $(function(){
+            $('.navbar-brand').click(function() {
+                
+            }, function() {
+                $('.nav-service').removeClass('hover');
+                $('.nav-work').removeClass('hover');
+                $('.nav-blog').removeClass('hover');
+                $('.nav-contact').removeClass('hover');
+                $('.nav-about').removeClass('hover');
+            })
+        })
+
+        $(function(){
+            $('.nav-about').click(function() {
+                $('.nav-about').addClass('hover');
+            }, function() {
+                $('.nav-service').removeClass('hover');
+                $('.nav-work').removeClass('hover');
+                $('.nav-blog').removeClass('hover');
+                $('.nav-contact').removeClass('hover');
+                $('.nav-about').addClass('hover');
+            })
+        })
+
+
+         $(function(){
+            $('.nav-service').click(function() {
+                $('.nav-service').addClass('hover');
+         
+            }, function() {
+                $('.nav-about').removeClass('hover');
+                $('.nav-work').removeClass('hover');
+                $('.nav-blog').removeClass('hover');
+                $('.nav-contact').removeClass('hover');
+                $('.nav-service').addClass('hover');
+            })
+        })
+
+         $(function(){
+            $('.nav-work').click(function() {
+                $('.nav-work').addClass('hover');
+            }, function() {
+                $('.nav-about').removeClass('hover');
+                $('.nav-service').removeClass('hover');
+                $('.nav-blog').removeClass('hover');
+                $('.nav-contact').removeClass('hover');
+                $('.nav-work').addClass('hover');
+            })
+        }) 
+
+         $(function(){
+            $('.nav-blog').click(function() {
+                $('.nav-blog').addClass('hover');
+            }, function() {
+                $('.nav-about').removeClass('hover');
+                $('.nav-work').removeClass('hover');
+                $('.nav-service').removeClass('hover');
+                $('.nav-contact').removeClass('hover');
+                $('.nav-blog').addClass('hover');
+            })
+        }) 
+
+         $(function(){
+            $('.nav-contact').click(function() {
+                $('.nav-contact').addClass('hover');
+            }, function() {
+                $('.nav-about').removeClass('hover');
+                $('.nav-work').removeClass('hover');
+                $('.nav-blog').removeClass('hover');
+                $('.nav-service').removeClass('hover');
+                $('.nav-contact').addClass('hover');
+            })
+        }) 
+
+
+
 
 </script> 
 @endsection
