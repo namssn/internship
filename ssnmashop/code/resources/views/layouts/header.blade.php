@@ -8,7 +8,7 @@
                 <h1>SSNMASHOP</h1>
                 <ul class="nav justify-content-center mt-5">
                     <li class="nav-item mr-5 ml-5">
-                      <a class="nav-link active" href="http://ssnmashop.local/home">Home</a>
+                      <a class="nav-link active" href="http://ssnmashop.local/homessn">Home</a>
                     </li>
                     <li class="nav-item mr-5 ml-5">
                       <a class="nav-link" href="http://ssnmashop.local/shop">Shop</a>

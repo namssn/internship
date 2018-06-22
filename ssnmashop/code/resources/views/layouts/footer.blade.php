@@ -23,7 +23,7 @@
         
         <div class="row">
             <div class="col-4">
-                <a href="http://ssnmashop.local/home"><p>Home</p></a>
+                <a href="http://ssnmashop.local/homessn"><p>Home</p></a>
             </div>
             <div class="col-4">
             </div>
